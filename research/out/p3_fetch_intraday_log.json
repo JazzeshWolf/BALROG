@@ -1,0 +1,24 @@
+{
+ "runs": [
+  {
+   "at": "2026-11-13T17:36:50",
+   "requests": 2024,
+   "cache_hits": 0,
+   "empty": 6,
+   "retries": 4,
+   "elapsed_s": 5391.3,
+   "exit": 0
+  },
+  {
+   "at": "2026-11-13T17:38:09",
+   "qa_daily": true,
+   "requests": 3,
+   "cache_hits": 0,
+   "empty": 0,
+   "retries": 0,
+   "elapsed_s": 69.6
+  }
+ ],
+ "total_requests": 2027,
+ "total_elapsed_s": 5460.9
+}
