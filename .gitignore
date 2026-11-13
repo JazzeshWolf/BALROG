@@ -1,0 +1,33 @@
+# external read-only clones (private archive must never enter this repo)
+_ext/
+
+# data: schemas are documented in data/README.md, the files themselves are not committed
+data/raw/
+data/**/*.parquet
+data/**/*.csv
+data/**/*.zip
+data/**/*.gz
+data/**/*.db
+!data/README.md
+
+# secrets
+.env
+.env.*
+*.token
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# node
+node_modules/
+
+# os / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.claude/
