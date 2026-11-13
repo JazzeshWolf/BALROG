@@ -1,0 +1,473 @@
+{
+ "source": "https://api.kite.trade/instruments",
+ "file": "data/raw/kite/instruments_20261113.csv",
+ "downloaded": "2026-11-13",
+ "n_rows_total": 124568,
+ "counts_by_exchange_kind": {
+  "BFO": {
+   "FUT": 12,
+   "OPT": 6280
+  },
+  "NFO": {
+   "FUT": 667,
+   "OPT": 43390
+  }
+ },
+ "indices": {
+  "NIFTY": {
+   "exchange": "NFO",
+   "n_option_contracts": 2242,
+   "expiries": [
+    {
+     "expiry": "2026-11-17",
+     "weekday": "Tue",
+     "lot_size": [
+      65
+     ],
+     "n_contracts": 284
+    },
+    {
+     "expiry": "2026-11-23",
+     "weekday": "Mon",
+     "lot_size": [
+      65
+     ],
+     "n_contracts": 316
+    },
+    {
+     "expiry": "2026-12-01",
+     "weekday": "Tue",
+     "lot_size": [
+      65
+     ],
+     "n_contracts": 284
+    },
+    {
+     "expiry": "2026-12-08",
+     "weekday": "Tue",
+     "lot_size": [
+      65
+     ],
+     "n_contracts": 236
+    },
+    {
+     "expiry": "2026-12-15",
+     "weekday": "Tue",
+     "lot_size": [
+      65
+     ],
+     "n_contracts": 186
+    },
+    {
+     "expiry": "2026-12-29",
+     "weekday": "Tue",
+     "lot_size": [
+      65
+     ],
+     "n_contracts": 348
+    },
+    {
+     "expiry": "2027-01-25",
+     "weekday": "Mon",
+     "lot_size": [
+      65
+     ],
+     "n_contracts": 280
+    },
+    {
+     "expiry": "2027-03-30",
+     "weekday": "Tue",
+     "lot_size": [
+      65
+     ],
+     "n_contracts": 26
+    },
+    {
+     "expiry": "2027-06-29",
+     "weekday": "Tue",
+     "lot_size": [
+      65
+     ],
+     "n_contracts": 28
+    },
+    {
+     "expiry": "2027-09-28",
+     "weekday": "Tue",
+     "lot_size": [
+      65
+     ],
+     "n_contracts": 26
+    },
+    {
+     "expiry": "2027-12-28",
+     "weekday": "Tue",
+     "lot_size": [
+      65
+     ],
+     "n_contracts": 35
+    },
+    {
+     "expiry": "2028-06-27",
+     "weekday": "Tue",
+     "lot_size": [
+      65
+     ],
+     "n_contracts": 27
+    },
+    {
+     "expiry": "2028-12-26",
+     "weekday": "Tue",
+     "lot_size": [
+      65
+     ],
+     "n_contracts": 32
+    },
+    {
+     "expiry": "2029-06-26",
+     "weekday": "Tue",
+     "lot_size": [
+      65
+     ],
+     "n_contracts": 27
+    },
+    {
+     "expiry": "2029-12-24",
+     "weekday": "Mon",
+     "lot_size": [
+      65
+     ],
+     "n_contracts": 29
+    },
+    {
+     "expiry": "2030-06-25",
+     "weekday": "Tue",
+     "lot_size": [
+      65
+     ],
+     "n_contracts": 26
+    },
+    {
+     "expiry": "2030-12-31",
+     "weekday": "Tue",
+     "lot_size": [
+      65
+     ],
+     "n_contracts": 26
+    },
+    {
+     "expiry": "2031-06-24",
+     "weekday": "Tue",
+     "lot_size": [
+      65
+     ],
+     "n_contracts": 26
+    }
+   ]
+  },
+  "BANKNIFTY": {
+   "exchange": "NFO",
+   "n_option_contracts": 1231,
+   "expiries": [
+    {
+     "expiry": "2026-11-23",
+     "weekday": "Mon",
+     "lot_size": [
+      30
+     ],
+     "n_contracts": 380
+    },
+    {
+     "expiry": "2026-12-29",
+     "weekday": "Tue",
+     "lot_size": [
+      30
+     ],
+     "n_contracts": 381
+    },
+    {
+     "expiry": "2027-01-25",
+     "weekday": "Mon",
+     "lot_size": [
+      30
+     ],
+     "n_contracts": 374
+    },
+    {
+     "expiry": "2027-03-30",
+     "weekday": "Tue",
+     "lot_size": [
+      30
+     ],
+     "n_contracts": 32
+    },
+    {
+     "expiry": "2027-06-29",
+     "weekday": "Tue",
+     "lot_size": [
+      30
+     ],
+     "n_contracts": 32
+    },
+    {
+     "expiry": "2027-09-28",
+     "weekday": "Tue",
+     "lot_size": [
+      30
+     ],
+     "n_contracts": 32
+    }
+   ]
+  },
+  "FINNIFTY": {
+   "exchange": "NFO",
+   "n_option_contracts": 680,
+   "expiries": [
+    {
+     "expiry": "2026-11-23",
+     "weekday": "Mon",
+     "lot_size": [
+      60
+     ],
+     "n_contracts": 330
+    },
+    {
+     "expiry": "2026-12-29",
+     "weekday": "Tue",
+     "lot_size": [
+      60
+     ],
+     "n_contracts": 178
+    },
+    {
+     "expiry": "2027-01-25",
+     "weekday": "Mon",
+     "lot_size": [
+      60
+     ],
+     "n_contracts": 172
+    }
+   ]
+  },
+  "MIDCPNIFTY": {
+   "exchange": "NFO",
+   "n_option_contracts": 956,
+   "expiries": [
+    {
+     "expiry": "2026-11-23",
+     "weekday": "Mon",
+     "lot_size": [
+      120
+     ],
+     "n_contracts": 354
+    },
+    {
+     "expiry": "2026-12-29",
+     "weekday": "Tue",
+     "lot_size": [
+      120
+     ],
+     "n_contracts": 310
+    },
+    {
+     "expiry": "2027-01-25",
+     "weekday": "Mon",
+     "lot_size": [
+      120
+     ],
+     "n_contracts": 292
+    }
+   ]
+  },
+  "SENSEX": {
+   "exchange": "BFO",
+   "n_option_contracts": 3686,
+   "expiries": [
+    {
+     "expiry": "2026-11-19",
+     "weekday": "Thu",
+     "lot_size": [
+      20
+     ],
+     "n_contracts": 466
+    },
+    {
+     "expiry": "2026-11-26",
+     "weekday": "Thu",
+     "lot_size": [
+      20
+     ],
+     "n_contracts": 472
+    },
+    {
+     "expiry": "2026-12-03",
+     "weekday": "Thu",
+     "lot_size": [
+      20
+     ],
+     "n_contracts": 402
+    },
+    {
+     "expiry": "2026-12-10",
+     "weekday": "Thu",
+     "lot_size": [
+      20
+     ],
+     "n_contracts": 402
+    },
+    {
+     "expiry": "2026-12-17",
+     "weekday": "Thu",
+     "lot_size": [
+      20
+     ],
+     "n_contracts": 380
+    },
+    {
+     "expiry": "2026-12-24",
+     "weekday": "Thu",
+     "lot_size": [
+      20
+     ],
+     "n_contracts": 278
+    },
+    {
+     "expiry": "2026-12-31",
+     "weekday": "Thu",
+     "lot_size": [
+      20
+     ],
+     "n_contracts": 466
+    },
+    {
+     "expiry": "2027-01-28",
+     "weekday": "Thu",
+     "lot_size": [
+      25
+     ],
+     "n_contracts": 380
+    },
+    {
+     "expiry": "2027-03-25",
+     "weekday": "Thu",
+     "lot_size": [
+      25
+     ],
+     "n_contracts": 40
+    },
+    {
+     "expiry": "2027-06-24",
+     "weekday": "Thu",
+     "lot_size": [
+      25
+     ],
+     "n_contracts": 40
+    },
+    {
+     "expiry": "2027-09-30",
+     "weekday": "Thu",
+     "lot_size": [
+      25
+     ],
+     "n_contracts": 40
+    },
+    {
+     "expiry": "2027-12-30",
+     "weekday": "Thu",
+     "lot_size": [
+      25
+     ],
+     "n_contracts": 40
+    },
+    {
+     "expiry": "2028-06-29",
+     "weekday": "Thu",
+     "lot_size": [
+      25
+     ],
+     "n_contracts": 40
+    },
+    {
+     "expiry": "2028-12-28",
+     "weekday": "Thu",
+     "lot_size": [
+      25
+     ],
+     "n_contracts": 40
+    },
+    {
+     "expiry": "2029-06-28",
+     "weekday": "Thu",
+     "lot_size": [
+      25
+     ],
+     "n_contracts": 40
+    },
+    {
+     "expiry": "2029-12-27",
+     "weekday": "Thu",
+     "lot_size": [
+      25
+     ],
+     "n_contracts": 40
+    },
+    {
+     "expiry": "2030-06-27",
+     "weekday": "Thu",
+     "lot_size": [
+      25
+     ],
+     "n_contracts": 40
+    },
+    {
+     "expiry": "2030-12-26",
+     "weekday": "Thu",
+     "lot_size": [
+      25
+     ],
+     "n_contracts": 40
+    },
+    {
+     "expiry": "2031-06-26",
+     "weekday": "Thu",
+     "lot_size": [
+      25
+     ],
+     "n_contracts": 40
+    }
+   ]
+  }
+ },
+ "nfo_stock_options": {
+  "n_underlyings": 219,
+  "expiries": [
+   {
+    "expiry": "2026-11-23",
+    "weekday": "Mon",
+    "lot_size": "101 distinct",
+    "n_contracts": 15316
+   },
+   {
+    "expiry": "2026-12-29",
+    "weekday": "Tue",
+    "lot_size": "99 distinct",
+    "n_contracts": 14216
+   },
+   {
+    "expiry": "2027-01-25",
+    "weekday": "Mon",
+    "lot_size": "95 distinct",
+    "n_contracts": 7507
+   }
+  ]
+ },
+ "bfo_other_option_underlyings": [
+  "BANKEX",
+  "FOCIT",
+  "SENSEX50"
+ ],
+ "deriv_expiry_range": {
+  "earliest": "2026-11-17",
+  "latest": "2031-06-26",
+  "any_expiry_before_today": false
+ }
+}

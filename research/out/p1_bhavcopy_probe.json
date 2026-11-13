@@ -1,0 +1,2182 @@
+{
+ "generated": "2026-11-13T15:37:36",
+ "nse_fo": [
+  {
+   "file": "fo16JUL2001bhav.csv.zip",
+   "date": "2001-07-16",
+   "format": "legacy_nse",
+   "bytes": 14189,
+   "rows": 1339,
+   "columns": [
+    "INSTRUMENT",
+    "SYMBOL",
+    "EXPIRY_DT",
+    "STRIKE_PR",
+    "OPTION_TYP",
+    "OPEN",
+    "HIGH",
+    "LOW",
+    "CLOSE",
+    "SETTLE_PR",
+    "CONTRACTS",
+    "VAL_INLAKH",
+    "OPEN_INT",
+    "CHG_IN_OI",
+    "TIMESTAMP"
+   ],
+   "n_option_contracts": 1336,
+   "n_option_underlyings": 32,
+   "n_index_option_underlyings": 1,
+   "n_stock_option_underlyings": 31,
+   "index_option_symbols": [
+    "NIFTY"
+   ],
+   "quality": {
+    "option_rows": 1336,
+    "zero_volume_share": 0.9087,
+    "zero_volume_share_index": 0.5,
+    "zero_volume_share_stock": 0.9252,
+    "zero_vol_close_ne_settle_share": 0.9959,
+    "zero_vol_close_eq_0_share": 0.0,
+    "traded_close_ne_settle_share": 0.0,
+    "NIFTY_near_expiries": [
+     {
+      "expiry": "2001-07-26",
+      "strikes": 9,
+      "strikes_traded": 8,
+      "zero_share": 0.167
+     },
+     {
+      "expiry": "2001-08-30",
+      "strikes": 9,
+      "strikes_traded": 5,
+      "zero_share": 0.5
+     },
+     {
+      "expiry": "2001-09-27",
+      "strikes": 8,
+      "strikes_traded": 2,
+      "zero_share": 0.875
+     }
+    ],
+    "NIFTY_n_expiries": 3,
+    "stock_near_expiry_strikes_median": 6.0,
+    "stock_near_expiry_traded_strikes_median": 0.0,
+    "stock_near_expiry_traded_strikes_p10_p90": [
+     0.0,
+     5.0
+    ],
+    "stock_underlyings_with_zero_traded_strikes": 16
+   },
+   "nifty_fut_implied_lot": 200.4,
+   "legacy_oi_divisible_by_implied_lot_share": 1.0
+  },
+  {
+   "file": "fo15JUN2005bhav.csv.zip",
+   "date": "2005-06-15",
+   "format": "legacy_nse",
+   "bytes": 94445,
+   "rows": 9038,
+   "columns": [
+    "INSTRUMENT",
+    "SYMBOL",
+    "EXPIRY_DT",
+    "STRIKE_PR",
+    "OPTIONTYPE",
+    "OPEN",
+    "HIGH",
+    "LOW",
+    "CLOSE",
+    "SETTLE_PR",
+    "CONTRACTS",
+    "VAL_INLAKH",
+    "OPEN_INT",
+    "CHG_IN_OI",
+    "TIMESTAMP"
+   ],
+   "n_option_contracts": 8654,
+   "n_option_underlyings": 121,
+   "n_index_option_underlyings": 3,
+   "n_stock_option_underlyings": 118,
+   "index_option_symbols": [
+    "BANKNIFTY",
+    "CNXIT",
+    "NIFTY"
+   ],
+   "quality": {
+    "option_rows": 8654,
+    "zero_volume_share": 0.9323,
+    "zero_volume_share_index": 0.7943,
+    "zero_volume_share_stock": 0.9369,
+    "zero_vol_close_ne_settle_share": 0.9877,
+    "zero_vol_close_eq_0_share": 0.0084,
+    "traded_close_ne_settle_share": 0.0,
+    "NIFTY_near_expiries": [
+     {
+      "expiry": "2005-06-30",
+      "strikes": 34,
+      "strikes_traded": 22,
+      "zero_share": 0.426
+     },
+     {
+      "expiry": "2005-07-28",
+      "strikes": 34,
+      "strikes_traded": 8,
+      "zero_share": 0.824
+     },
+     {
+      "expiry": "2005-08-25",
+      "strikes": 22,
+      "strikes_traded": 3,
+      "zero_share": 0.909
+     }
+    ],
+    "NIFTY_n_expiries": 3,
+    "BANKNIFTY_near_expiries": [
+     {
+      "expiry": "2005-06-30",
+      "strikes": 17,
+      "strikes_traded": 2,
+      "zero_share": 0.912
+     },
+     {
+      "expiry": "2005-07-28",
+      "strikes": 17,
+      "strikes_traded": 0,
+      "zero_share": 1.0
+     },
+     {
+      "expiry": "2005-08-25",
+      "strikes": 17,
+      "strikes_traded": 0,
+      "zero_share": 1.0
+     }
+    ],
+    "BANKNIFTY_n_expiries": 3,
+    "stock_near_expiry_strikes_median": 12.0,
+    "stock_near_expiry_traded_strikes_median": 3.0,
+    "stock_near_expiry_traded_strikes_p10_p90": [
+     0.0,
+     7.0
+    ],
+    "stock_underlyings_with_zero_traded_strikes": 32
+   },
+   "nifty_fut_implied_lot": 99.7,
+   "legacy_oi_divisible_by_implied_lot_share": 1.0
+  },
+  {
+   "file": "fo15JUN2010bhav.csv.zip",
+   "date": "2010-06-15",
+   "format": "legacy_nse",
+   "bytes": 266520,
+   "rows": 26735,
+   "columns": [
+    "INSTRUMENT",
+    "SYMBOL",
+    "EXPIRY_DT",
+    "STRIKE_PR",
+    "OPTION_TYP",
+    "OPEN",
+    "HIGH",
+    "LOW",
+    "CLOSE",
+    "SETTLE_PR",
+    "CONTRACTS",
+    "VAL_INLAKH",
+    "OPEN_INT",
+    "CHG_IN_OI",
+    "TIMESTAMP"
+   ],
+   "n_option_contracts": 26132,
+   "n_option_underlyings": 201,
+   "n_index_option_underlyings": 5,
+   "n_stock_option_underlyings": 196,
+   "index_option_symbols": [
+    "BANKNIFTY",
+    "CNXIT",
+    "MINIFTY",
+    "NFTYMCAP50",
+    "NIFTY"
+   ],
+   "quality": {
+    "option_rows": 26132,
+    "zero_volume_share": 0.9495,
+    "zero_volume_share_index": 0.7836,
+    "zero_volume_share_stock": 0.9553,
+    "zero_vol_close_ne_settle_share": 0.9891,
+    "zero_vol_close_eq_0_share": 0.0,
+    "traded_close_ne_settle_share": 0.0,
+    "NIFTY_near_expiries": [
+     {
+      "expiry": "2010-06-24",
+      "strikes": 41,
+      "strikes_traded": 25,
+      "zero_share": 0.451
+     },
+     {
+      "expiry": "2010-07-29",
+      "strikes": 18,
+      "strikes_traded": 18,
+      "zero_share": 0.056
+     },
+     {
+      "expiry": "2010-08-26",
+      "strikes": 15,
+      "strikes_traded": 15,
+      "zero_share": 0.3
+     }
+    ],
+    "NIFTY_n_expiries": 14,
+    "BANKNIFTY_near_expiries": [
+     {
+      "expiry": "2010-06-24",
+      "strikes": 25,
+      "strikes_traded": 15,
+      "zero_share": 0.54
+     },
+     {
+      "expiry": "2010-07-29",
+      "strikes": 25,
+      "strikes_traded": 3,
+      "zero_share": 0.94
+     },
+     {
+      "expiry": "2010-08-26",
+      "strikes": 19,
+      "strikes_traded": 0,
+      "zero_share": 1.0
+     }
+    ],
+    "BANKNIFTY_n_expiries": 3,
+    "stock_near_expiry_strikes_median": 19.0,
+    "stock_near_expiry_traded_strikes_median": 2.0,
+    "stock_near_expiry_traded_strikes_p10_p90": [
+     0.0,
+     8.0
+    ],
+    "stock_underlyings_with_zero_traded_strikes": 73
+   },
+   "nifty_fut_implied_lot": 49.8,
+   "legacy_oi_divisible_by_implied_lot_share": 1.0
+  },
+  {
+   "file": "fo15JUN2016bhav.csv.zip",
+   "date": "2016-06-15",
+   "format": "legacy_nse",
+   "bytes": 342878,
+   "rows": 31523,
+   "columns": [
+    "INSTRUMENT",
+    "SYMBOL",
+    "EXPIRY_DT",
+    "STRIKE_PR",
+    "OPTION_TYP",
+    "OPEN",
+    "HIGH",
+    "LOW",
+    "CLOSE",
+    "SETTLE_PR",
+    "CONTRACTS",
+    "VAL_INLAKH",
+    "OPEN_INT",
+    "CHG_IN_OI",
+    "TIMESTAMP"
+   ],
+   "n_option_contracts": 30970,
+   "n_option_underlyings": 181,
+   "n_index_option_underlyings": 8,
+   "n_stock_option_underlyings": 173,
+   "index_option_symbols": [
+    "BANKNIFTY",
+    "FTSE100",
+    "NIFTY",
+    "NIFTYINFRA",
+    "NIFTYIT",
+    "NIFTYMID50",
+    "NIFTYPSE",
+    "S&P500"
+   ],
+   "quality": {
+    "option_rows": 30970,
+    "zero_volume_share": 0.9015,
+    "zero_volume_share_index": 0.8868,
+    "zero_volume_share_stock": 0.9031,
+    "zero_vol_close_ne_settle_share": 0.9951,
+    "zero_vol_close_eq_0_share": 0.0,
+    "traded_close_ne_settle_share": 0.0,
+    "NIFTY_near_expiries": [
+     {
+      "expiry": "2016-06-30",
+      "strikes": 126,
+      "strikes_traded": 61,
+      "zero_share": 0.567
+     },
+     {
+      "expiry": "2016-07-28",
+      "strikes": 72,
+      "strikes_traded": 26,
+      "zero_share": 0.681
+     },
+     {
+      "expiry": "2016-08-25",
+      "strikes": 65,
+      "strikes_traded": 18,
+      "zero_share": 0.792
+     }
+    ],
+    "NIFTY_n_expiries": 14,
+    "BANKNIFTY_near_expiries": [
+     {
+      "expiry": "2016-06-16",
+      "strikes": 38,
+      "strikes_traded": 26,
+      "zero_share": 0.487
+     },
+     {
+      "expiry": "2016-06-23",
+      "strikes": 38,
+      "strikes_traded": 17,
+      "zero_share": 0.724
+     },
+     {
+      "expiry": "2016-06-30",
+      "strikes": 57,
+      "strikes_traded": 38,
+      "zero_share": 0.421
+     }
+    ],
+    "BANKNIFTY_n_expiries": 10,
+    "stock_near_expiry_strikes_median": 24.0,
+    "stock_near_expiry_traded_strikes_median": 9.0,
+    "stock_near_expiry_traded_strikes_p10_p90": [
+     3.0,
+     14.300000000000011
+    ],
+    "stock_underlyings_with_zero_traded_strikes": 9
+   },
+   "nifty_fut_implied_lot": 74.6,
+   "legacy_oi_divisible_by_implied_lot_share": 0.7285
+  },
+  {
+   "file": "fo15JUN2018bhav.csv.zip",
+   "date": "2018-06-15",
+   "format": "legacy_nse",
+   "bytes": 420257,
+   "rows": 37641,
+   "columns": [
+    "INSTRUMENT",
+    "SYMBOL",
+    "EXPIRY_DT",
+    "STRIKE_PR",
+    "OPTION_TYP",
+    "OPEN",
+    "HIGH",
+    "LOW",
+    "CLOSE",
+    "SETTLE_PR",
+    "CONTRACTS",
+    "VAL_INLAKH",
+    "OPEN_INT",
+    "CHG_IN_OI",
+    "TIMESTAMP"
+   ],
+   "n_option_contracts": 36992,
+   "n_option_underlyings": 214,
+   "n_index_option_underlyings": 8,
+   "n_stock_option_underlyings": 206,
+   "index_option_symbols": [
+    "BANKNIFTY",
+    "FTSE100",
+    "NIFTY",
+    "NIFTYCPSE",
+    "NIFTYINFRA",
+    "NIFTYIT",
+    "NIFTYMID50",
+    "NIFTYPSE"
+   ],
+   "quality": {
+    "option_rows": 36992,
+    "zero_volume_share": 0.8846,
+    "zero_volume_share_index": 0.8871,
+    "zero_volume_share_stock": 0.8843,
+    "zero_vol_close_ne_settle_share": 0.9925,
+    "zero_vol_close_eq_0_share": 0.0,
+    "traded_close_ne_settle_share": 0.0,
+    "NIFTY_near_expiries": [
+     {
+      "expiry": "2018-06-28",
+      "strikes": 139,
+      "strikes_traded": 63,
+      "zero_share": 0.59
+     },
+     {
+      "expiry": "2018-07-26",
+      "strikes": 69,
+      "strikes_traded": 36,
+      "zero_share": 0.58
+     },
+     {
+      "expiry": "2018-08-30",
+      "strikes": 66,
+      "strikes_traded": 21,
+      "zero_share": 0.78
+     }
+    ],
+    "NIFTY_n_expiries": 14,
+    "BANKNIFTY_near_expiries": [
+     {
+      "expiry": "2018-06-21",
+      "strikes": 55,
+      "strikes_traded": 37,
+      "zero_share": 0.5
+     },
+     {
+      "expiry": "2018-06-28",
+      "strikes": 62,
+      "strikes_traded": 41,
+      "zero_share": 0.435
+     },
+     {
+      "expiry": "2018-07-05",
+      "strikes": 47,
+      "strikes_traded": 5,
+      "zero_share": 0.947
+     }
+    ],
+    "BANKNIFTY_n_expiries": 10,
+    "stock_near_expiry_strikes_median": 26.0,
+    "stock_near_expiry_traded_strikes_median": 11.0,
+    "stock_near_expiry_traded_strikes_p10_p90": [
+     5.0,
+     17.0
+    ],
+    "stock_underlyings_with_zero_traded_strikes": 9,
+    "expiring_rows": 54,
+    "expiring_close_looks_like_spot_share": 0.0
+   },
+   "nifty_fut_implied_lot": 74.8,
+   "legacy_oi_divisible_by_implied_lot_share": 0.9734
+  },
+  {
+   "file": "fo15JUN2020bhav.csv.zip",
+   "date": "2020-06-15",
+   "format": "legacy_nse",
+   "bytes": 465207,
+   "rows": 38323,
+   "columns": [
+    "INSTRUMENT",
+    "SYMBOL",
+    "EXPIRY_DT",
+    "STRIKE_PR",
+    "OPTION_TYP",
+    "OPEN",
+    "HIGH",
+    "LOW",
+    "CLOSE",
+    "SETTLE_PR",
+    "CONTRACTS",
+    "VAL_INLAKH",
+    "OPEN_INT",
+    "CHG_IN_OI",
+    "TIMESTAMP"
+   ],
+   "n_option_contracts": 37894,
+   "n_option_underlyings": 145,
+   "n_index_option_underlyings": 3,
+   "n_stock_option_underlyings": 142,
+   "index_option_symbols": [
+    "BANKNIFTY",
+    "NIFTY",
+    "NIFTYIT"
+   ],
+   "quality": {
+    "option_rows": 37894,
+    "zero_volume_share": 0.8333,
+    "zero_volume_share_index": 0.8678,
+    "zero_volume_share_stock": 0.8271,
+    "zero_vol_close_ne_settle_share": 0.9973,
+    "zero_vol_close_eq_0_share": 0.0,
+    "traded_close_ne_settle_share": 0.3334,
+    "NIFTY_near_expiries": [
+     {
+      "expiry": "2020-06-18",
+      "strikes": 88,
+      "strikes_traded": 73,
+      "zero_share": 0.358
+     },
+     {
+      "expiry": "2020-06-25",
+      "strikes": 154,
+      "strikes_traded": 104,
+      "zero_share": 0.477
+     },
+     {
+      "expiry": "2020-07-02",
+      "strikes": 88,
+      "strikes_traded": 24,
+      "zero_share": 0.83
+     }
+    ],
+    "NIFTY_n_expiries": 21,
+    "BANKNIFTY_near_expiries": [
+     {
+      "expiry": "2020-06-18",
+      "strikes": 103,
+      "strikes_traded": 90,
+      "zero_share": 0.34
+     },
+     {
+      "expiry": "2020-06-25",
+      "strikes": 104,
+      "strikes_traded": 74,
+      "zero_share": 0.375
+     },
+     {
+      "expiry": "2020-07-02",
+      "strikes": 103,
+      "strikes_traded": 4,
+      "zero_share": 0.981
+     }
+    ],
+    "BANKNIFTY_n_expiries": 10,
+    "stock_near_expiry_strikes_median": 40.0,
+    "stock_near_expiry_traded_strikes_median": 21.0,
+    "stock_near_expiry_traded_strikes_p10_p90": [
+     13.0,
+     31.0
+    ],
+    "stock_underlyings_with_zero_traded_strikes": 0
+   },
+   "nifty_fut_implied_lot": 74.8,
+   "legacy_oi_divisible_by_implied_lot_share": 0.9987
+  },
+  {
+   "file": "fo15JUN2022bhav.csv.zip",
+   "date": "2022-06-15",
+   "format": "legacy_nse",
+   "bytes": 766268,
+   "rows": 64135,
+   "columns": [
+    "INSTRUMENT",
+    "SYMBOL",
+    "EXPIRY_DT",
+    "STRIKE_PR",
+    "OPTION_TYP",
+    "OPEN",
+    "HIGH",
+    "LOW",
+    "CLOSE",
+    "SETTLE_PR",
+    "CONTRACTS",
+    "VAL_INLAKH",
+    "OPEN_INT",
+    "CHG_IN_OI",
+    "TIMESTAMP"
+   ],
+   "n_option_contracts": 63527,
+   "n_option_underlyings": 202,
+   "n_index_option_underlyings": 4,
+   "n_stock_option_underlyings": 198,
+   "index_option_symbols": [
+    "BANKNIFTY",
+    "FINNIFTY",
+    "MIDCPNIFTY",
+    "NIFTY"
+   ],
+   "quality": {
+    "option_rows": 63527,
+    "zero_volume_share": 0.8466,
+    "zero_volume_share_index": 0.7517,
+    "zero_volume_share_stock": 0.8578,
+    "zero_vol_close_ne_settle_share": 0.9968,
+    "zero_vol_close_eq_0_share": 0.0,
+    "traded_close_ne_settle_share": 0.3092,
+    "NIFTY_near_expiries": [
+     {
+      "expiry": "2022-06-16",
+      "strikes": 96,
+      "strikes_traded": 96,
+      "zero_share": 0.193
+     },
+     {
+      "expiry": "2022-06-23",
+      "strikes": 94,
+      "strikes_traded": 92,
+      "zero_share": 0.207
+     },
+     {
+      "expiry": "2022-06-30",
+      "strikes": 139,
+      "strikes_traded": 120,
+      "zero_share": 0.18
+     }
+    ],
+    "NIFTY_n_expiries": 21,
+    "BANKNIFTY_near_expiries": [
+     {
+      "expiry": "2022-06-16",
+      "strikes": 108,
+      "strikes_traded": 108,
+      "zero_share": 0.204
+     },
+     {
+      "expiry": "2022-06-23",
+      "strikes": 106,
+      "strikes_traded": 91,
+      "zero_share": 0.307
+     },
+     {
+      "expiry": "2022-06-30",
+      "strikes": 142,
+      "strikes_traded": 120,
+      "zero_share": 0.246
+     }
+    ],
+    "BANKNIFTY_n_expiries": 10,
+    "stock_near_expiry_strikes_median": 50.0,
+    "stock_near_expiry_traded_strikes_median": 22.0,
+    "stock_near_expiry_traded_strikes_p10_p90": [
+     12.700000000000003,
+     33.0
+    ],
+    "stock_underlyings_with_zero_traded_strikes": 0
+   },
+   "nifty_fut_implied_lot": 50.1,
+   "legacy_oi_divisible_by_implied_lot_share": 0.9567
+  },
+  {
+   "file": "fo15JUN2023bhav.csv.zip",
+   "date": "2023-06-15",
+   "format": "legacy_nse",
+   "bytes": 664757,
+   "rows": 50590,
+   "columns": [
+    "INSTRUMENT",
+    "SYMBOL",
+    "EXPIRY_DT",
+    "STRIKE_PR",
+    "OPTION_TYP",
+    "OPEN",
+    "HIGH",
+    "LOW",
+    "CLOSE",
+    "SETTLE_PR",
+    "CONTRACTS",
+    "VAL_INLAKH",
+    "OPEN_INT",
+    "CHG_IN_OI",
+    "TIMESTAMP"
+   ],
+   "n_option_contracts": 50020,
+   "n_option_underlyings": 191,
+   "n_index_option_underlyings": 4,
+   "n_stock_option_underlyings": 187,
+   "index_option_symbols": [
+    "BANKNIFTY",
+    "FINNIFTY",
+    "MIDCPNIFTY",
+    "NIFTY"
+   ],
+   "quality": {
+    "option_rows": 50020,
+    "zero_volume_share": 0.7777,
+    "zero_volume_share_index": 0.6769,
+    "zero_volume_share_stock": 0.7876,
+    "zero_vol_close_ne_settle_share": 0.9974,
+    "zero_vol_close_eq_0_share": 0.0,
+    "traded_close_ne_settle_share": 0.2851,
+    "NIFTY_near_expiries": [
+     {
+      "expiry": "2023-06-15",
+      "strikes": 73,
+      "strikes_traded": 73,
+      "zero_share": 0.13
+     },
+     {
+      "expiry": "2023-06-22",
+      "strikes": 73,
+      "strikes_traded": 73,
+      "zero_share": 0.144
+     },
+     {
+      "expiry": "2023-06-29",
+      "strikes": 113,
+      "strikes_traded": 95,
+      "zero_share": 0.259
+     }
+    ],
+    "NIFTY_n_expiries": 18,
+    "BANKNIFTY_near_expiries": [
+     {
+      "expiry": "2023-06-15",
+      "strikes": 75,
+      "strikes_traded": 75,
+      "zero_share": 0.1
+     },
+     {
+      "expiry": "2023-06-22",
+      "strikes": 74,
+      "strikes_traded": 74,
+      "zero_share": 0.182
+     },
+     {
+      "expiry": "2023-06-29",
+      "strikes": 114,
+      "strikes_traded": 95,
+      "zero_share": 0.294
+     }
+    ],
+    "BANKNIFTY_n_expiries": 10,
+    "stock_near_expiry_strikes_median": 42.0,
+    "stock_near_expiry_traded_strikes_median": 27.0,
+    "stock_near_expiry_traded_strikes_p10_p90": [
+     19.0,
+     41.0
+    ],
+    "stock_underlyings_with_zero_traded_strikes": 0,
+    "expiring_rows": 296,
+    "expiring_close_looks_like_spot_share": 0.0
+   },
+   "nifty_fut_implied_lot": 50.1,
+   "legacy_oi_divisible_by_implied_lot_share": 0.9827
+  },
+  {
+   "file": "BhavCopy_NSE_FO_0_0_0_20240814_F_0000.csv.zip",
+   "date": "2024-08-14",
+   "format": "udiff",
+   "bytes": 1211415,
+   "rows": 36330,
+   "columns": [
+    "TradDt",
+    "BizDt",
+    "Sgmt",
+    "Src",
+    "FinInstrmTp",
+    "FinInstrmId",
+    "ISIN",
+    "TckrSymb",
+    "SctySrs",
+    "XpryDt",
+    "FininstrmActlXpryDt",
+    "StrkPric",
+    "OptnTp",
+    "FinInstrmNm",
+    "OpnPric",
+    "HghPric",
+    "LwPric",
+    "ClsPric",
+    "LastPric",
+    "PrvsClsgPric",
+    "UndrlygPric",
+    "SttlmPric",
+    "OpnIntrst",
+    "ChngInOpnIntrst",
+    "TtlTradgVol",
+    "TtlTrfVal",
+    "TtlNbOfTxsExctd",
+    "SsnId",
+    "NewBrdLotQty",
+    "Rmks",
+    "Rsvd1",
+    "Rsvd2",
+    "Rsvd3",
+    "Rsvd4"
+   ],
+   "n_option_contracts": 35774,
+   "n_option_underlyings": 186,
+   "n_index_option_underlyings": 5,
+   "n_stock_option_underlyings": 181,
+   "index_option_symbols": [
+    "BANKNIFTY",
+    "FINNIFTY",
+    "MIDCPNIFTY",
+    "NIFTY",
+    "NIFTYNXT50"
+   ],
+   "quality": {
+    "option_rows": 35774,
+    "zero_volume_share": 0.6636,
+    "zero_volume_share_index": 0.6964,
+    "zero_volume_share_stock": 0.6556,
+    "zero_vol_close_ne_settle_share": 0.9982,
+    "zero_vol_close_eq_0_share": 0.0,
+    "traded_close_ne_settle_share": 0.2731,
+    "NIFTY_near_expiries": [
+     {
+      "expiry": "2024-08-14",
+      "strikes": 91,
+      "strikes_traded": 91,
+      "zero_share": 0.104
+     },
+     {
+      "expiry": "2024-08-22",
+      "strikes": 91,
+      "strikes_traded": 91,
+      "zero_share": 0.181
+     },
+     {
+      "expiry": "2024-08-29",
+      "strikes": 133,
+      "strikes_traded": 130,
+      "zero_share": 0.237
+     }
+    ],
+    "NIFTY_n_expiries": 18,
+    "BANKNIFTY_near_expiries": [
+     {
+      "expiry": "2024-08-14",
+      "strikes": 109,
+      "strikes_traded": 109,
+      "zero_share": 0.193
+     },
+     {
+      "expiry": "2024-08-21",
+      "strikes": 109,
+      "strikes_traded": 109,
+      "zero_share": 0.206
+     },
+     {
+      "expiry": "2024-08-28",
+      "strikes": 141,
+      "strikes_traded": 128,
+      "zero_share": 0.312
+     }
+    ],
+    "BANKNIFTY_n_expiries": 10,
+    "stock_near_expiry_strikes_median": 33.0,
+    "stock_near_expiry_traded_strikes_median": 27.0,
+    "stock_near_expiry_traded_strikes_p10_p90": [
+     20.0,
+     39.0
+    ],
+    "stock_underlyings_with_zero_traded_strikes": 0,
+    "expiring_rows": 400,
+    "expiring_close_eq_underlying_share": 0.0
+   },
+   "udiff_volume_divisible_by_lot_share": 0.01,
+   "udiff_oi_divisible_by_lot_share": 1.0,
+   "has_underlying_price_share": 1.0,
+   "nifty_lot": 25
+  },
+  {
+   "file": "fo14JUN2024bhav.csv.zip",
+   "date": "2024-06-14",
+   "format": "legacy_nse",
+   "bytes": 690974,
+   "rows": 47701,
+   "columns": [
+    "INSTRUMENT",
+    "SYMBOL",
+    "EXPIRY_DT",
+    "STRIKE_PR",
+    "OPTION_TYP",
+    "OPEN",
+    "HIGH",
+    "LOW",
+    "CLOSE",
+    "SETTLE_PR",
+    "CONTRACTS",
+    "VAL_INLAKH",
+    "OPEN_INT",
+    "CHG_IN_OI",
+    "TIMESTAMP"
+   ],
+   "n_option_contracts": 47142,
+   "n_option_underlyings": 187,
+   "n_index_option_underlyings": 5,
+   "n_stock_option_underlyings": 182,
+   "index_option_symbols": [
+    "BANKNIFTY",
+    "FINNIFTY",
+    "MIDCPNIFTY",
+    "NIFTY",
+    "NIFTYNXT50"
+   ],
+   "quality": {
+    "option_rows": 47142,
+    "zero_volume_share": 0.7111,
+    "zero_volume_share_index": 0.7082,
+    "zero_volume_share_stock": 0.7116,
+    "zero_vol_close_ne_settle_share": 0.9984,
+    "zero_vol_close_eq_0_share": 0.0,
+    "traded_close_ne_settle_share": 0.2443,
+    "NIFTY_near_expiries": [
+     {
+      "expiry": "2024-06-20",
+      "strikes": 101,
+      "strikes_traded": 101,
+      "zero_share": 0.158
+     },
+     {
+      "expiry": "2024-06-27",
+      "strikes": 111,
+      "strikes_traded": 111,
+      "zero_share": 0.045
+     },
+     {
+      "expiry": "2024-07-04",
+      "strikes": 101,
+      "strikes_traded": 77,
+      "zero_share": 0.381
+     }
+    ],
+    "NIFTY_n_expiries": 18,
+    "BANKNIFTY_near_expiries": [
+     {
+      "expiry": "2024-06-19",
+      "strikes": 120,
+      "strikes_traded": 120,
+      "zero_share": 0.229
+     },
+     {
+      "expiry": "2024-06-26",
+      "strikes": 123,
+      "strikes_traded": 122,
+      "zero_share": 0.093
+     },
+     {
+      "expiry": "2024-07-03",
+      "strikes": 120,
+      "strikes_traded": 97,
+      "zero_share": 0.429
+     }
+    ],
+    "BANKNIFTY_n_expiries": 10,
+    "stock_near_expiry_strikes_median": 43.0,
+    "stock_near_expiry_traded_strikes_median": 31.0,
+    "stock_near_expiry_traded_strikes_p10_p90": [
+     22.0,
+     48.0
+    ],
+    "stock_underlyings_with_zero_traded_strikes": 0,
+    "expiring_rows": 248,
+    "expiring_close_looks_like_spot_share": 0.0
+   },
+   "nifty_fut_implied_lot": 25.0,
+   "legacy_oi_divisible_by_implied_lot_share": 1.0
+  },
+  {
+   "file": "BhavCopy_NSE_FO_0_0_0_20250613_F_0000.csv.zip",
+   "date": "2025-06-13",
+   "format": "udiff",
+   "bytes": 1095235,
+   "rows": 34854,
+   "columns": [
+    "TradDt",
+    "BizDt",
+    "Sgmt",
+    "Src",
+    "FinInstrmTp",
+    "FinInstrmId",
+    "ISIN",
+    "TckrSymb",
+    "SctySrs",
+    "XpryDt",
+    "FininstrmActlXpryDt",
+    "StrkPric",
+    "OptnTp",
+    "FinInstrmNm",
+    "OpnPric",
+    "HghPric",
+    "LwPric",
+    "ClsPric",
+    "LastPric",
+    "PrvsClsgPric",
+    "UndrlygPric",
+    "SttlmPric",
+    "OpnIntrst",
+    "ChngInOpnIntrst",
+    "TtlTradgVol",
+    "TtlTrfVal",
+    "TtlNbOfTxsExctd",
+    "SsnId",
+    "NewBrdLotQty",
+    "Rmks",
+    "Rsvd1",
+    "Rsvd2",
+    "Rsvd3",
+    "Rsvd4"
+   ],
+   "n_option_contracts": 34189,
+   "n_option_underlyings": 225,
+   "n_index_option_underlyings": 5,
+   "n_stock_option_underlyings": 220,
+   "index_option_symbols": [
+    "BANKNIFTY",
+    "FINNIFTY",
+    "MIDCPNIFTY",
+    "NIFTY",
+    "NIFTYNXT50"
+   ],
+   "quality": {
+    "option_rows": 34189,
+    "zero_volume_share": 0.6148,
+    "zero_volume_share_index": 0.6554,
+    "zero_volume_share_stock": 0.608,
+    "zero_vol_close_ne_settle_share": 0.9967,
+    "zero_vol_close_eq_0_share": 0.0,
+    "traded_close_ne_settle_share": 0.2592,
+    "NIFTY_near_expiries": [
+     {
+      "expiry": "2025-06-19",
+      "strikes": 83,
+      "strikes_traded": 83,
+      "zero_share": 0.06
+     },
+     {
+      "expiry": "2025-06-26",
+      "strikes": 142,
+      "strikes_traded": 142,
+      "zero_share": 0.164
+     },
+     {
+      "expiry": "2025-07-03",
+      "strikes": 83,
+      "strikes_traded": 80,
+      "zero_share": 0.241
+     }
+    ],
+    "NIFTY_n_expiries": 18,
+    "BANKNIFTY_near_expiries": [
+     {
+      "expiry": "2025-06-26",
+      "strikes": 183,
+      "strikes_traded": 181,
+      "zero_share": 0.292
+     },
+     {
+      "expiry": "2025-07-31",
+      "strikes": 145,
+      "strikes_traded": 97,
+      "zero_share": 0.486
+     },
+     {
+      "expiry": "2025-08-28",
+      "strikes": 125,
+      "strikes_traded": 18,
+      "zero_share": 0.9
+     }
+    ],
+    "BANKNIFTY_n_expiries": 6,
+    "stock_near_expiry_strikes_median": 29.0,
+    "stock_near_expiry_traded_strikes_median": 24.5,
+    "stock_near_expiry_traded_strikes_p10_p90": [
+     17.0,
+     36.0
+    ],
+    "stock_underlyings_with_zero_traded_strikes": 0
+   },
+   "udiff_volume_divisible_by_lot_share": 0.0033,
+   "udiff_oi_divisible_by_lot_share": 0.9948,
+   "has_underlying_price_share": 1.0,
+   "nifty_lot": 75
+  },
+  {
+   "file": "BhavCopy_NSE_FO_0_0_0_20260901_F_0000.csv.zip",
+   "date": "2026-09-01",
+   "format": "udiff",
+   "bytes": 970128,
+   "rows": 31573,
+   "columns": [
+    "TradDt",
+    "BizDt",
+    "Sgmt",
+    "Src",
+    "FinInstrmTp",
+    "FinInstrmId",
+    "ISIN",
+    "TckrSymb",
+    "SctySrs",
+    "XpryDt",
+    "FininstrmActlXpryDt",
+    "StrkPric",
+    "OptnTp",
+    "FinInstrmNm",
+    "OpnPric",
+    "HghPric",
+    "LwPric",
+    "ClsPric",
+    "LastPric",
+    "PrvsClsgPric",
+    "UndrlygPric",
+    "SttlmPric",
+    "OpnIntrst",
+    "ChngInOpnIntrst",
+    "TtlTradgVol",
+    "TtlTrfVal",
+    "TtlNbOfTxsExctd",
+    "SsnId",
+    "NewBrdLotQty",
+    "Rmks",
+    "Rsvd1",
+    "Rsvd2",
+    "Rsvd3",
+    "Rsvd4"
+   ],
+   "n_option_contracts": 30926,
+   "n_option_underlyings": 216,
+   "n_index_option_underlyings": 6,
+   "n_stock_option_underlyings": 210,
+   "index_option_symbols": [
+    "BANKNIFTY",
+    "FINNIFTY",
+    "MIDCPNIFTY",
+    "NIFTY",
+    "NIFTYFPI",
+    "NIFTYNXT50"
+   ],
+   "quality": {
+    "option_rows": 30926,
+    "zero_volume_share": 0.6804,
+    "zero_volume_share_index": 0.728,
+    "zero_volume_share_stock": 0.6721,
+    "zero_vol_close_ne_settle_share": 0.9994,
+    "zero_vol_close_eq_0_share": 0.0,
+    "traded_close_ne_settle_share": 0.2779,
+    "NIFTY_near_expiries": [
+     {
+      "expiry": "2026-09-01",
+      "strikes": 105,
+      "strikes_traded": 105,
+      "zero_share": 0.195
+     },
+     {
+      "expiry": "2026-09-08",
+      "strikes": 82,
+      "strikes_traded": 82,
+      "zero_share": 0.146
+     },
+     {
+      "expiry": "2026-09-15",
+      "strikes": 78,
+      "strikes_traded": 70,
+      "zero_share": 0.359
+     }
+    ],
+    "NIFTY_n_expiries": 18,
+    "BANKNIFTY_near_expiries": [
+     {
+      "expiry": "2026-09-29",
+      "strikes": 144,
+      "strikes_traded": 97,
+      "zero_share": 0.458
+     },
+     {
+      "expiry": "2026-10-27",
+      "strikes": 134,
+      "strikes_traded": 38,
+      "zero_share": 0.791
+     },
+     {
+      "expiry": "2026-11-23",
+      "strikes": 125,
+      "strikes_traded": 9,
+      "zero_share": 0.952
+     }
+    ],
+    "BANKNIFTY_n_expiries": 6,
+    "stock_near_expiry_strikes_median": 26.0,
+    "stock_near_expiry_traded_strikes_median": 21.0,
+    "stock_near_expiry_traded_strikes_p10_p90": [
+     15.0,
+     30.0
+    ],
+    "stock_underlyings_with_zero_traded_strikes": 0,
+    "expiring_rows": 210,
+    "expiring_close_eq_underlying_share": 0.0
+   },
+   "udiff_volume_divisible_by_lot_share": 0.0029,
+   "udiff_oi_divisible_by_lot_share": 0.995,
+   "has_underlying_price_share": 1.0,
+   "nifty_lot": 65
+  },
+  {
+   "file": "BhavCopy_NSE_FO_0_0_0_20261112_F_0000.csv.zip",
+   "date": "2026-11-12",
+   "format": "udiff",
+   "bytes": 1368767,
+   "rows": 42967,
+   "columns": [
+    "TradDt",
+    "BizDt",
+    "Sgmt",
+    "Src",
+    "FinInstrmTp",
+    "FinInstrmId",
+    "ISIN",
+    "TckrSymb",
+    "SctySrs",
+    "XpryDt",
+    "FininstrmActlXpryDt",
+    "StrkPric",
+    "OptnTp",
+    "FinInstrmNm",
+    "OpnPric",
+    "HghPric",
+    "LwPric",
+    "ClsPric",
+    "LastPric",
+    "PrvsClsgPric",
+    "UndrlygPric",
+    "SttlmPric",
+    "OpnIntrst",
+    "ChngInOpnIntrst",
+    "TtlTradgVol",
+    "TtlTrfVal",
+    "TtlNbOfTxsExctd",
+    "SsnId",
+    "NewBrdLotQty",
+    "Rmks",
+    "Rsvd1",
+    "Rsvd2",
+    "Rsvd3",
+    "Rsvd4"
+   ],
+   "n_option_contracts": 42300,
+   "n_option_underlyings": 224,
+   "n_index_option_underlyings": 6,
+   "n_stock_option_underlyings": 218,
+   "index_option_symbols": [
+    "BANKNIFTY",
+    "FINNIFTY",
+    "MIDCPNIFTY",
+    "NIFTY",
+    "NIFTYFPI",
+    "NIFTYNXT50"
+   ],
+   "quality": {
+    "option_rows": 42300,
+    "zero_volume_share": 0.6072,
+    "zero_volume_share_index": 0.6463,
+    "zero_volume_share_stock": 0.6003,
+    "zero_vol_close_ne_settle_share": 0.9995,
+    "zero_vol_close_eq_0_share": 0.0,
+    "traded_close_ne_settle_share": 0.2913,
+    "NIFTY_near_expiries": [
+     {
+      "expiry": "2026-11-17",
+      "strikes": 142,
+      "strikes_traded": 142,
+      "zero_share": 0.187
+     },
+     {
+      "expiry": "2026-11-23",
+      "strikes": 158,
+      "strikes_traded": 156,
+      "zero_share": 0.199
+     },
+     {
+      "expiry": "2026-12-01",
+      "strikes": 142,
+      "strikes_traded": 120,
+      "zero_share": 0.391
+     }
+    ],
+    "NIFTY_n_expiries": 18,
+    "BANKNIFTY_near_expiries": [
+     {
+      "expiry": "2026-11-23",
+      "strikes": 189,
+      "strikes_traded": 183,
+      "zero_share": 0.228
+     },
+     {
+      "expiry": "2026-12-29",
+      "strikes": 190,
+      "strikes_traded": 130,
+      "zero_share": 0.449
+     },
+     {
+      "expiry": "2027-01-25",
+      "strikes": 186,
+      "strikes_traded": 93,
+      "zero_share": 0.68
+     }
+    ],
+    "BANKNIFTY_n_expiries": 6,
+    "stock_near_expiry_strikes_median": 34.0,
+    "stock_near_expiry_traded_strikes_median": 30.0,
+    "stock_near_expiry_traded_strikes_p10_p90": [
+     21.0,
+     43.0
+    ],
+    "stock_underlyings_with_zero_traded_strikes": 0
+   },
+   "udiff_volume_divisible_by_lot_share": 0.0036,
+   "udiff_oi_divisible_by_lot_share": 0.9972,
+   "has_underlying_price_share": 1.0,
+   "nifty_lot": 65
+  }
+ ],
+ "bse_fo": [
+  {
+   "file": "bhavcopy15-06-22.zip",
+   "date": "2022-06-15",
+   "format": "legacy_bse",
+   "bytes": 1750,
+   "rows": 38,
+   "columns": [
+    "Contract Type",
+    "Symbol",
+    "Expiry",
+    "Strike",
+    "Option Type",
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "L T Date",
+    "Wt. Avg. Price",
+    "Prem/Disc",
+    "Prem/Disc(%)",
+    "Contracts Traded",
+    "Turnover(Rs Lakhs)",
+    "Open Interest",
+    "Change in OI",
+    "% Change in OI",
+    "Cost of Carry % p.a.",
+    "Margin %",
+    "Margin Value",
+    "Is Traded"
+   ],
+   "n_option_contracts": 37,
+   "n_option_underlyings": 1,
+   "n_index_option_underlyings": 1,
+   "n_stock_option_underlyings": 0,
+   "index_option_symbols": [
+    "SENSEX"
+   ],
+   "quality": {
+    "option_rows": 37,
+    "zero_volume_share": 0.0541,
+    "zero_volume_share_index": 0.0541,
+    "zero_volume_share_stock": null,
+    "SENSEX_near_expiries": [
+     {
+      "expiry": "2022-06-16",
+      "strikes": 32,
+      "strikes_traded": 30,
+      "zero_share": 0.054
+     }
+    ],
+    "SENSEX_n_expiries": 1
+   },
+   "has_is_traded_flag": true
+  },
+  {
+   "file": "bhavcopy15-06-23.zip",
+   "date": "2023-06-15",
+   "format": "legacy_bse",
+   "bytes": 2225,
+   "rows": 47,
+   "columns": [
+    "Contract Type",
+    "Symbol",
+    "Expiry",
+    "Strike",
+    "Option Type",
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "L T Date",
+    "Wt. Avg. Price",
+    "Prem/Disc",
+    "Prem/Disc(%)",
+    "Contracts Traded",
+    "Turnover(Rs Lakhs)",
+    "Open Interest",
+    "Change in OI",
+    "% Change in OI",
+    "Cost of Carry % p.a.",
+    "Margin %",
+    "Margin Value",
+    "Is Traded"
+   ],
+   "n_option_contracts": 45,
+   "n_option_underlyings": 1,
+   "n_index_option_underlyings": 1,
+   "n_stock_option_underlyings": 0,
+   "index_option_symbols": [
+    "SENSEX"
+   ],
+   "quality": {
+    "option_rows": 45,
+    "zero_volume_share": 0.0222,
+    "zero_volume_share_index": 0.0222,
+    "zero_volume_share_stock": null,
+    "SENSEX_near_expiries": [
+     {
+      "expiry": "2023-06-16",
+      "strikes": 21,
+      "strikes_traded": 20,
+      "zero_share": 0.031
+     },
+     {
+      "expiry": "2023-06-23",
+      "strikes": 11,
+      "strikes_traded": 11,
+      "zero_share": 0.0
+     }
+    ],
+    "SENSEX_n_expiries": 2
+   },
+   "has_is_traded_flag": true
+  },
+  {
+   "file": "BhavCopy_BSE_FO_0_0_0_20240814_F_0000.CSV",
+   "date": "2024-08-14",
+   "format": "udiff",
+   "bytes": 66438,
+   "rows": 337,
+   "columns": [
+    "TradDt",
+    "BizDt",
+    "Sgmt",
+    "Src",
+    "FinInstrmTp",
+    "FinInstrmId",
+    "ISIN",
+    "TckrSymb",
+    "SctySrs",
+    "XpryDt",
+    "FininstrmActlXpryDt",
+    "StrkPric",
+    "OptnTp",
+    "FinInstrmNm",
+    "OpnPric",
+    "HghPric",
+    "LwPric",
+    "ClsPric",
+    "LastPric",
+    "PrvsClsgPric",
+    "UndrlygPric",
+    "SttlmPric",
+    "OpnIntrst",
+    "ChngInOpnIntrst",
+    "TtlTradgVol",
+    "TtlTrfVal",
+    "TtlNbOfTxsExctd",
+    "SsnId",
+    "NewBrdLotQty",
+    "Rmks",
+    "Rsvd1",
+    "Rsvd2",
+    "Rsvd3",
+    "Rsvd4"
+   ],
+   "n_option_contracts": 319,
+   "n_option_underlyings": 14,
+   "n_index_option_underlyings": 2,
+   "n_stock_option_underlyings": 12,
+   "index_option_symbols": [
+    "BANKEX",
+    "SENSEX"
+   ],
+   "quality": {
+    "option_rows": 319,
+    "zero_volume_share": 0.1787,
+    "zero_volume_share_index": 0.1289,
+    "zero_volume_share_stock": 0.625,
+    "zero_vol_close_ne_settle_share": 1.0,
+    "zero_vol_close_eq_0_share": 0.0,
+    "traded_close_ne_settle_share": 0.1221,
+    "SENSEX_near_expiries": [
+     {
+      "expiry": "2024-08-16",
+      "strikes": 105,
+      "strikes_traded": 105,
+      "zero_share": 0.014
+     },
+     {
+      "expiry": "2024-08-23",
+      "strikes": 21,
+      "strikes_traded": 20,
+      "zero_share": 0.094
+     },
+     {
+      "expiry": "2024-08-30",
+      "strikes": 26,
+      "strikes_traded": 9,
+      "zero_share": 0.667
+     }
+    ],
+    "SENSEX_n_expiries": 5,
+    "stock_near_expiry_strikes_median": 1.5,
+    "stock_near_expiry_traded_strikes_median": 0.5,
+    "stock_near_expiry_traded_strikes_p10_p90": [
+     0.0,
+     2.0
+    ],
+    "stock_underlyings_with_zero_traded_strikes": 6
+   },
+   "udiff_volume_divisible_by_lot_share": 1.0,
+   "udiff_oi_divisible_by_lot_share": 1.0,
+   "has_underlying_price_share": 1.0
+  },
+  {
+   "file": "bhavcopy14-06-24.zip",
+   "date": "2024-06-14",
+   "format": "legacy_bse",
+   "bytes": 14410,
+   "rows": 400,
+   "columns": [
+    "Contract Type",
+    "Symbol",
+    "Expiry",
+    "Strike",
+    "Option Type",
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "L T Date",
+    "Wt. Avg. Price",
+    "Prem/Disc",
+    "Prem/Disc(%)",
+    "Contracts Traded",
+    "Turnover(Rs Lakhs)",
+    "Open Interest",
+    "Change in OI",
+    "% Change in OI",
+    "Cost of Carry % p.a.",
+    "Margin %",
+    "Margin Value",
+    "Is Traded"
+   ],
+   "n_option_contracts": 386,
+   "n_option_underlyings": 2,
+   "n_index_option_underlyings": 2,
+   "n_stock_option_underlyings": 0,
+   "index_option_symbols": [
+    "BANKEX",
+    "SENSEX"
+   ],
+   "quality": {
+    "option_rows": 386,
+    "zero_volume_share": 0.0829,
+    "zero_volume_share_index": 0.0829,
+    "zero_volume_share_stock": null,
+    "SENSEX_near_expiries": [
+     {
+      "expiry": "2024-06-14",
+      "strikes": 107,
+      "strikes_traded": 102,
+      "zero_share": 0.05
+     },
+     {
+      "expiry": "2024-06-21",
+      "strikes": 35,
+      "strikes_traded": 33,
+      "zero_share": 0.038
+     },
+     {
+      "expiry": "2024-06-28",
+      "strikes": 26,
+      "strikes_traded": 12,
+      "zero_share": 0.515
+     }
+    ],
+    "SENSEX_n_expiries": 4,
+    "expiring_rows": 274,
+    "expiring_close_looks_like_spot_share": 1.0
+   },
+   "has_is_traded_flag": true
+  },
+  {
+   "file": "BhavCopy_BSE_FO_0_0_0_20250613_F_0000.CSV",
+   "date": "2025-06-13",
+   "format": "udiff",
+   "bytes": 149292,
+   "rows": 761,
+   "columns": [
+    "TradDt",
+    "BizDt",
+    "Sgmt",
+    "Src",
+    "FinInstrmTp",
+    "FinInstrmId",
+    "ISIN",
+    "TckrSymb",
+    "SctySrs",
+    "XpryDt",
+    "FininstrmActlXpryDt",
+    "StrkPric",
+    "OptnTp",
+    "FinInstrmNm",
+    "OpnPric",
+    "HghPric",
+    "LwPric",
+    "ClsPric",
+    "LastPric",
+    "PrvsClsgPric",
+    "UndrlygPric",
+    "SttlmPric",
+    "OpnIntrst",
+    "ChngInOpnIntrst",
+    "TtlTradgVol",
+    "TtlTrfVal",
+    "TtlNbOfTxsExctd",
+    "SsnId",
+    "NewBrdLotQty",
+    "Rmks",
+    "Rsvd1",
+    "Rsvd2",
+    "Rsvd3",
+    "Rsvd4"
+   ],
+   "n_option_contracts": 751,
+   "n_option_underlyings": 2,
+   "n_index_option_underlyings": 2,
+   "n_stock_option_underlyings": 0,
+   "index_option_symbols": [
+    "BANKEX",
+    "SENSEX"
+   ],
+   "quality": {
+    "option_rows": 751,
+    "zero_volume_share": 0.2863,
+    "zero_volume_share_index": 0.2863,
+    "zero_volume_share_stock": null,
+    "zero_vol_close_ne_settle_share": 0.9395,
+    "zero_vol_close_eq_0_share": 0.0,
+    "traded_close_ne_settle_share": 0.2463,
+    "SENSEX_near_expiries": [
+     {
+      "expiry": "2025-06-17",
+      "strikes": 181,
+      "strikes_traded": 178,
+      "zero_share": 0.097
+     },
+     {
+      "expiry": "2025-06-24",
+      "strikes": 127,
+      "strikes_traded": 100,
+      "zero_share": 0.27
+     },
+     {
+      "expiry": "2025-07-01",
+      "strikes": 78,
+      "strikes_traded": 49,
+      "zero_share": 0.443
+     }
+    ],
+    "SENSEX_n_expiries": 8
+   },
+   "udiff_volume_divisible_by_lot_share": 1.0,
+   "udiff_oi_divisible_by_lot_share": 1.0,
+   "has_underlying_price_share": 1.0
+  },
+  {
+   "file": "BhavCopy_BSE_FO_0_0_0_20261112_F_0000.CSV",
+   "date": "2026-11-12",
+   "format": "udiff",
+   "bytes": 222315,
+   "rows": 1118,
+   "columns": [
+    "TradDt",
+    "BizDt",
+    "Sgmt",
+    "Src",
+    "FinInstrmTp",
+    "FinInstrmId",
+    "ISIN",
+    "TckrSymb",
+    "SctySrs",
+    "XpryDt",
+    "FininstrmActlXpryDt",
+    "StrkPric",
+    "OptnTp",
+    "FinInstrmNm",
+    "OpnPric",
+    "HghPric",
+    "LwPric",
+    "ClsPric",
+    "LastPric",
+    "PrvsClsgPric",
+    "UndrlygPric",
+    "SttlmPric",
+    "OpnIntrst",
+    "ChngInOpnIntrst",
+    "TtlTradgVol",
+    "TtlTrfVal",
+    "TtlNbOfTxsExctd",
+    "SsnId",
+    "NewBrdLotQty",
+    "Rmks",
+    "Rsvd1",
+    "Rsvd2",
+    "Rsvd3",
+    "Rsvd4"
+   ],
+   "n_option_contracts": 1098,
+   "n_option_underlyings": 22,
+   "n_index_option_underlyings": 3,
+   "n_stock_option_underlyings": 19,
+   "index_option_symbols": [
+    "BANKEX",
+    "FOCIT",
+    "SENSEX"
+   ],
+   "quality": {
+    "option_rows": 1098,
+    "zero_volume_share": 0.2832,
+    "zero_volume_share_index": 0.2748,
+    "zero_volume_share_stock": 0.7143,
+    "zero_vol_close_ne_settle_share": 0.4084,
+    "zero_vol_close_eq_0_share": 0.0,
+    "traded_close_ne_settle_share": 0.1436,
+    "SENSEX_near_expiries": [
+     {
+      "expiry": "2026-11-12",
+      "strikes": 236,
+      "strikes_traded": 236,
+      "zero_share": 0.062
+     },
+     {
+      "expiry": "2026-11-19",
+      "strikes": 154,
+      "strikes_traded": 138,
+      "zero_share": 0.175
+     },
+     {
+      "expiry": "2026-11-26",
+      "strikes": 162,
+      "strikes_traded": 101,
+      "zero_share": 0.463
+     }
+    ],
+    "SENSEX_n_expiries": 11,
+    "stock_near_expiry_strikes_median": 1.0,
+    "stock_near_expiry_traded_strikes_median": 0.0,
+    "stock_near_expiry_traded_strikes_p10_p90": [
+     0.0,
+     1.0
+    ],
+    "stock_underlyings_with_zero_traded_strikes": 13,
+    "expiring_rows": 373,
+    "expiring_close_eq_underlying_share": 1.0
+   },
+   "udiff_volume_divisible_by_lot_share": 1.0,
+   "udiff_oi_divisible_by_lot_share": 1.0,
+   "has_underlying_price_share": 1.0
+  }
+ ],
+ "nse_cm": [
+  {
+   "file": "cm15JUN2016bhav.csv.zip",
+   "date": "2016-06-15",
+   "bytes": 59793,
+   "rows": 1631,
+   "columns": [
+    "SYMBOL",
+    "SERIES",
+    "OPEN",
+    "HIGH",
+    "LOW",
+    "CLOSE",
+    "LAST",
+    "PREVCLOSE",
+    "TOTTRDQTY",
+    "TOTTRDVAL",
+    "TIMESTAMP",
+    "TOTALTRADES",
+    "ISIN"
+   ],
+   "eq_series_rows": 1490
+  },
+  {
+   "file": "BhavCopy_NSE_CM_0_0_0_20240814_F_0000.csv.zip",
+   "date": "2024-08-14",
+   "bytes": 164863,
+   "rows": 2802,
+   "columns": [
+    "TradDt",
+    "BizDt",
+    "Sgmt",
+    "Src",
+    "FinInstrmTp",
+    "FinInstrmId",
+    "ISIN",
+    "TckrSymb",
+    "SctySrs",
+    "XpryDt",
+    "FininstrmActlXpryDt",
+    "StrkPric",
+    "OptnTp",
+    "FinInstrmNm",
+    "OpnPric",
+    "HghPric",
+    "LwPric",
+    "ClsPric",
+    "LastPric",
+    "PrvsClsgPric",
+    "UndrlygPric",
+    "SttlmPric",
+    "OpnIntrst",
+    "ChngInOpnIntrst",
+    "TtlTradgVol",
+    "TtlTrfVal",
+    "TtlNbOfTxsExctd",
+    "SsnId",
+    "NewBrdLotQty",
+    "Rmks",
+    "Rsvd1",
+    "Rsvd2",
+    "Rsvd3",
+    "Rsvd4"
+   ],
+   "eq_series_rows": 1886
+  },
+  {
+   "file": "cm14JUN2024bhav.csv.zip",
+   "date": "2024-06-14",
+   "bytes": 107936,
+   "rows": 2764,
+   "columns": [
+    "SYMBOL",
+    "SERIES",
+    "OPEN",
+    "HIGH",
+    "LOW",
+    "CLOSE",
+    "LAST",
+    "PREVCLOSE",
+    "TOTTRDQTY",
+    "TOTTRDVAL",
+    "TIMESTAMP",
+    "TOTALTRADES",
+    "ISIN"
+   ],
+   "eq_series_rows": 1928
+  },
+  {
+   "file": "BhavCopy_NSE_CM_0_0_0_20261112_F_0000.csv.zip",
+   "date": "2026-11-12",
+   "bytes": 208828,
+   "rows": 3727,
+   "columns": [
+    "TradDt",
+    "BizDt",
+    "Sgmt",
+    "Src",
+    "FinInstrmTp",
+    "FinInstrmId",
+    "ISIN",
+    "TckrSymb",
+    "SctySrs",
+    "XpryDt",
+    "FininstrmActlXpryDt",
+    "StrkPric",
+    "OptnTp",
+    "FinInstrmNm",
+    "OpnPric",
+    "HghPric",
+    "LwPric",
+    "ClsPric",
+    "LastPric",
+    "PrvsClsgPric",
+    "UndrlygPric",
+    "SttlmPric",
+    "OpnIntrst",
+    "ChngInOpnIntrst",
+    "TtlTradgVol",
+    "TtlTrfVal",
+    "TtlNbOfTxsExctd",
+    "SsnId",
+    "NewBrdLotQty",
+    "Rmks",
+    "Rsvd1",
+    "Rsvd2",
+    "Rsvd3",
+    "Rsvd4"
+   ],
+   "eq_series_rows": 2748
+  }
+ ],
+ "bse_cm": [
+  {
+   "file": "EQ_ISINCODE_150623.zip",
+   "date": "2023-06-15",
+   "bytes": 158802,
+   "rows": 3952,
+   "columns": [
+    "SC_CODE",
+    "SC_NAME",
+    "SC_GROUP",
+    "SC_TYPE",
+    "OPEN",
+    "HIGH",
+    "LOW",
+    "CLOSE",
+    "LAST",
+    "PREVCLOSE",
+    "NO_TRADES",
+    "NO_OF_SHRS",
+    "NET_TURNOV",
+    "TDCLOINDI",
+    "ISIN_CODE",
+    "TRADING_DATE",
+    "FILLER2",
+    "FILLER3"
+   ]
+  },
+  {
+   "file": "BhavCopy_BSE_CM_0_0_0_20261112_F_0000.CSV",
+   "date": "2026-11-12",
+   "bytes": 888444,
+   "rows": 5192,
+   "columns": [
+    "TradDt",
+    "BizDt",
+    "Sgmt",
+    "Src",
+    "FinInstrmTp",
+    "FinInstrmId",
+    "ISIN",
+    "TckrSymb",
+    "SctySrs",
+    "XpryDt",
+    "FininstrmActlXpryDt",
+    "StrkPric",
+    "OptnTp",
+    "FinInstrmNm",
+    "OpnPric",
+    "HghPric",
+    "LwPric",
+    "ClsPric",
+    "LastPric",
+    "PrvsClsgPric",
+    "UndrlygPric",
+    "SttlmPric",
+    "OpnIntrst",
+    "ChngInOpnIntrst",
+    "TtlTradgVol",
+    "TtlTrfVal",
+    "TtlNbOfTxsExctd",
+    "SsnId",
+    "NewBrdLotQty",
+    "Rmks",
+    "Rsvd1",
+    "Rsvd2",
+    "Rsvd3",
+    "Rsvd4"
+   ],
+   "eq_series_rows": 0
+  }
+ ],
+ "index": [
+  {
+   "file": "ind_close_all_15062016.csv",
+   "date": "2016-06-15",
+   "bytes": 6061,
+   "rows": 64,
+   "columns": [
+    "Index Name",
+    "Index Date",
+    "Open Index Value",
+    "High Index Value",
+    "Low Index Value",
+    "Closing Index Value",
+    "Points Change",
+    "Change(%)",
+    "Volume",
+    "Turnover (Rs. Cr.)",
+    "P/E",
+    "P/B",
+    "Div Yield"
+   ],
+   "has_india_vix": true,
+   "has_nifty50": true,
+   "vix_row": [
+    [
+     "17.19",
+     "17.63",
+     "15.42",
+     "17.06"
+    ]
+   ]
+  },
+  {
+   "file": "ind_close_all_12112026.csv",
+   "date": "2026-11-12",
+   "bytes": 17595,
+   "rows": 167,
+   "columns": [
+    "Index Name",
+    "Index Date",
+    "Open Index Value",
+    "High Index Value",
+    "Low Index Value",
+    "Closing Index Value",
+    "Points Change",
+    "Change(%)",
+    "Volume",
+    "Turnover (Rs. Cr.)",
+    "P/E",
+    "P/B",
+    "Div Yield"
+   ],
+   "has_india_vix": true,
+   "has_nifty50": true,
+   "vix_row": [
+    [
+     "17.555",
+     "17.555",
+     "15.2525",
+     "16.62"
+    ]
+   ]
+  }
+ ],
+ "participant_oi": [
+  {
+   "file": "fao_participant_oi_15062012.csv",
+   "date": "2012-06-15",
+   "bytes": 901,
+   "title": "\"Participant wise Open Interest (no. of contracts) in Equity Derivatives as on June 15, 20",
+   "header": [
+    "Client Type",
+    "Future Index Long",
+    "Future Index Short",
+    "Future Stock Long",
+    "Future Stock Short",
+    "Option Index Call Long",
+    "Option Index Put Long",
+    "Option Index Call Short",
+    "Option Index Put Short",
+    "Option Stock Call Long",
+    "Option Stock Put Long",
+    "Option Stock Call Short",
+    "Option Stock Put Short",
+    "Total Long Contracts",
+    "Total Short Contracts"
+   ],
+   "client_types": [
+    "Client",
+    "DII",
+    "FII",
+    "Pro",
+    "TOTAL"
+   ]
+  },
+  {
+   "file": "fao_participant_oi_15062016.csv",
+   "date": "2016-06-15",
+   "bytes": 906,
+   "title": "\"Participant wise Open Interest (no. of contracts) in Equity Derivatives as on Jun 15, 201",
+   "header": [
+    "Client Type",
+    "Future Index Long",
+    "Future Index Short",
+    "Future Stock Long",
+    "Future Stock Short",
+    "Option Index Call Long",
+    "Option Index Put Long",
+    "Option Index Call Short",
+    "Option Index Put Short",
+    "Option Stock Call Long",
+    "Option Stock Put Long",
+    "Option Stock Call Short",
+    "Option Stock Put Short",
+    "Total Long Contracts",
+    "Total Short Contracts"
+   ],
+   "client_types": [
+    "Client",
+    "DII",
+    "FII",
+    "Pro",
+    "TOTAL"
+   ]
+  },
+  {
+   "file": "fao_participant_oi_12112026.csv",
+   "date": "2026-11-12",
+   "bytes": 985,
+   "title": "\"\"Participant wise Open Interest (no. of contracts) in Equity Derivatives as on Nov 12, 20",
+   "header": [
+    "Client Type",
+    "Future Index Long",
+    "Future Index Short",
+    "Future Stock Long",
+    "Future Stock Short",
+    "Option Index Call Long",
+    "Option Index Put Long",
+    "Option Index Call Short",
+    "Option Index Put Short",
+    "Option Stock Call Long",
+    "Option Stock Put Long",
+    "Option Stock Call Short",
+    "Option Stock Put Short",
+    "Total Long Contracts",
+    "Total Short Contracts"
+   ],
+   "client_types": [
+    "Client",
+    "DII",
+    "FII",
+    "Pro",
+    "TOTAL"
+   ]
+  }
+ ],
+ "secban": [
+  {
+   "file": "fo_secban_12112026.csv",
+   "first_lines": [
+    "Securities in Ban For Trade Date 12-NOV-2026:",
+    "1,KAYNES"
+   ]
+  }
+ ],
+ "lots": {
+  "file": "fo_mktlots_20261113.csv",
+  "rows": 225,
+  "columns": [
+   "UNDERLYING",
+   "SYMBOL",
+   "NOV-26",
+   "DEC-26",
+   "JAN-27",
+   "MAR-27",
+   "JUN-27",
+   "SEP-27",
+   "DEC-27",
+   "JUN-28",
+   "DEC-28",
+   "JUN-29",
+   "DEC-29",
+   "JUN-30",
+   "DEC-30",
+   "JUN-31"
+  ],
+  "note": "current snapshot only: forward months, no history"
+ },
+ "rate_test": {
+  "dates": 18,
+  "ok": 17,
+  "missing_404": 1,
+  "missing_dates": [
+   "2026-09-14"
+  ],
+  "mean_bytes": 1075666
+ },
+ "downloaded_files": 48,
+ "sizing": {
+  "trading_days": 1950,
+  "legacy_days": 1367,
+  "udiff_days": 583,
+  "mb_by_kind": {
+   "nse_fo": 1524.4,
+   "bse_fo": 93.5,
+   "nse_cm": 223.6,
+   "nse_index_incl_vix": 23.1,
+   "nse_participant_oi": 1.8
+  },
+  "total_mb": 1866.3,
+  "files": 9750,
+  "hours_at_1rps": 4.2,
+  "note": "BSE legacy sample sizes are 2022-24 (thin early SENSEX) -> lower bound"
+ }
+}

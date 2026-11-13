@@ -1,0 +1,959 @@
+{
+ "days": {
+  "n": 54,
+  "first": "2026-08-11",
+  "last": "2026-11-12",
+  "holidays_source": "upstox api (live)",
+  "holidays_in_range": [
+   "2026-09-14",
+   "2026-10-02",
+   "2026-10-20",
+   "2026-11-10"
+  ],
+  "n_trading_days_in_range": 64,
+  "missing": [
+   "2026-08-26",
+   "2026-08-27",
+   "2026-08-28",
+   "2026-08-31",
+   "2026-09-01",
+   "2026-09-02",
+   "2026-09-03",
+   "2026-09-04",
+   "2026-09-07",
+   "2026-09-08",
+   "2026-09-09",
+   "2026-09-10",
+   "2026-09-11"
+  ],
+  "n_missing": 13,
+  "archived_on_holiday": [
+   "2026-10-02",
+   "2026-10-20",
+   "2026-11-10"
+  ],
+  "whole_day_duplicates": [
+   "2026-10-02",
+   "2026-10-20",
+   "2026-11-10"
+  ],
+  "missed_days_state": [],
+  "asof_ist_tod": {
+   "index": {
+    "min": "00:52",
+    "p10": "16:25",
+    "median": "18:46",
+    "p90": "22:28",
+    "max": "23:40"
+   },
+   "stock": {
+    "min": "16:00",
+    "p10": "16:15",
+    "median": "17:22",
+    "p90": "20:43",
+    "max": "22:28"
+   }
+  },
+  "n_snapshots_not_post_close": 77,
+  "stale_symbol_files": [
+   {
+    "symbol": "BAJAJHLDNG",
+    "n": 12,
+    "first": "2026-10-28",
+    "last": "2026-11-12",
+    "asof": "2026-10-27 21:21"
+   },
+   {
+    "symbol": "DALBHARAT",
+    "n": 43,
+    "first": "2026-09-15",
+    "last": "2026-11-12",
+    "asof": "2026-08-25 16:45"
+   },
+   {
+    "symbol": "ICICIPRULI",
+    "n": 15,
+    "first": "2026-10-23",
+    "last": "2026-11-12",
+    "asof": "2026-10-22 20:44"
+   },
+   {
+    "symbol": "SAIL",
+    "n": 7,
+    "first": "2026-10-28",
+    "last": "2026-11-05",
+    "asof": "2026-10-27 21:21"
+   }
+  ],
+  "n_symbol_dup_prev_other_days": 136,
+  "n_usable_snaps": 10595,
+  "n_snaps": 11366,
+  "n_clean_days": 51
+ },
+ "instruments": {
+  "index_symbols": [
+   "BANKNIFTY",
+   "NIFTY",
+   "SENSEX"
+  ],
+  "stocks_per_day": {
+   "min": 157,
+   "median": 208.0,
+   "max": 210,
+   "first_day": 157,
+   "last_day": 210
+  },
+  "indices_per_day": [
+   3
+  ],
+  "distinct_total": 213,
+  "distinct_stocks": 210,
+  "entered": {
+   "2026-08-12": [
+    "360ONE",
+    "ADANIPOWER",
+    "AMBER",
+    "BAJAJHLDNG",
+    "BANKINDIA",
+    "BDL",
+    "BLUESTARCO",
+    "COCHINSHIP",
+    "DALBHARAT",
+    "ETERNAL",
+    "FORCEMOT",
+    "FORTIS",
+    "GMRAIRPORT",
+    "GODFRYPHLP",
+    "GVT&D",
+    "HINDZINC",
+    "HYUNDAI",
+    "INDIANB",
+    "INOXWIND",
+    "IREDA",
+    "KALYANKJIL",
+    "KAYNES",
+    "KEI",
+    "KFINTECH",
+    "KPITTECH",
+    "LICI",
+    "LTF",
+    "LTM",
+    "MFSL",
+    "MOTILALOFS",
+    "NAM-INDIA",
+    "NBCC",
+    "PATANJALI",
+    "PGEL",
+    "PHOENIXLTD",
+    "PNBHOUSING",
+    "POWERINDIA",
+    "PREMIERENE",
+    "RADICO",
+    "SHRIRAMFIN",
+    "SOLARINDS",
+    "SONACOMS",
+    "SUZLON",
+    "SWIGGY",
+    "TMPV",
+    "UNIONBANK",
+    "UNITDSPR",
+    "UNOMINDA",
+    "VMM",
+    "WAAREEENER",
+    "YESBANK"
+   ],
+   "2026-10-28": [
+    "NAVINFLUOR"
+   ],
+   "2026-10-29": [
+    "COROMANDEL"
+   ]
+  },
+  "left": {},
+  "with_internal_gaps": []
+ },
+ "expiries": {
+  "n_expiries_per_snapshot": {
+   "index": {
+    "1": 0,
+    "2": 1,
+    "3": 53,
+    "4": 22,
+    "5": 32,
+    "6": 54
+   },
+   "stock": {
+    "1": 855,
+    "2": 10349,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+   }
+  },
+  "dte_by_rank": {
+   "index|1": {
+    "min": 0.0,
+    "50%": 4.0,
+    "max": 27.0
+   },
+   "index|2": {
+    "min": 6.0,
+    "50%": 12.0,
+    "max": 62.0
+   },
+   "index|3+": {
+    "min": 13.0,
+    "50%": 27.0,
+    "max": 90.0
+   },
+   "stock|1": {
+    "min": 0.0,
+    "50%": 12.0,
+    "max": 35.0
+   },
+   "stock|2": {
+    "min": 27.0,
+    "50%": 41.0,
+    "max": 62.0
+   }
+  },
+  "index_expiry_weekdays": {
+   "BANKNIFTY": {
+    "Tue": 4,
+    "Mon": 2
+   },
+   "NIFTY": {
+    "Tue": 16,
+    "Mon": 4
+   },
+   "SENSEX": {
+    "Thu": 17
+   }
+  },
+  "stock_expiry_weekdays": {
+   "Tue": 4,
+   "Mon": 1
+  },
+  "stock_expiries": [
+   "2026-08-25",
+   "2026-09-29",
+   "2026-10-27",
+   "2026-11-23",
+   "2026-12-29"
+  ],
+  "index_expiries": {
+   "BANKNIFTY": [
+    "2026-08-25",
+    "2026-09-29",
+    "2026-10-27",
+    "2026-11-23",
+    "2026-12-29",
+    "2027-01-25"
+   ],
+   "NIFTY": [
+    "2026-08-11",
+    "2026-08-18",
+    "2026-08-25",
+    "2026-09-01",
+    "2026-09-08",
+    "2026-09-15",
+    "2026-09-22",
+    "2026-09-29",
+    "2026-10-06",
+    "2026-10-13",
+    "2026-10-19",
+    "2026-10-27",
+    "2026-11-03",
+    "2026-11-09",
+    "2026-11-17",
+    "2026-11-23",
+    "2026-12-01",
+    "2026-12-08",
+    "2026-12-29",
+    "2027-01-25"
+   ],
+   "SENSEX": [
+    "2026-08-13",
+    "2026-08-20",
+    "2026-08-27",
+    "2026-09-03",
+    "2026-09-10",
+    "2026-09-17",
+    "2026-09-24",
+    "2026-10-01",
+    "2026-10-08",
+    "2026-10-15",
+    "2026-10-22",
+    "2026-10-29",
+    "2026-11-05",
+    "2026-11-12",
+    "2026-11-19",
+    "2026-11-26",
+    "2026-12-03"
+   ]
+  },
+  "off_weekday_expiries": [
+   "BANKNIFTY 2026-11-23 (Mon)",
+   "BANKNIFTY 2027-01-25 (Mon)",
+   "NIFTY 2026-11-23 (Mon)",
+   "NIFTY 2026-10-19 (Mon)",
+   "NIFTY 2026-11-09 (Mon)",
+   "NIFTY 2027-01-25 (Mon)",
+   "stocks 2026-11-23 (Mon)"
+  ],
+  "index_lots": [
+   {
+    "symbol": "BANKNIFTY",
+    "lotSize": 30.0,
+    "min": "2026-08-11",
+    "max": "2026-11-12"
+   },
+   {
+    "symbol": "NIFTY",
+    "lotSize": 65.0,
+    "min": "2026-08-11",
+    "max": "2026-11-12"
+   },
+   {
+    "symbol": "SENSEX",
+    "lotSize": 20.0,
+    "min": "2026-08-11",
+    "max": "2026-11-12"
+   }
+  ],
+  "n_stocks_lot_changed": 9,
+  "stock_lot_change_dates": {
+   "2026-10-28": 9
+  }
+ },
+ "chain_completeness": [
+  {
+   "cls": "index",
+   "rank": "1",
+   "strikes_med": 146.0,
+   "rows": 37935,
+   "ltp_pos": 100.0,
+   "iv": 78.3,
+   "two_sided": 73.0,
+   "vol_pos": 90.1,
+   "oi_pos": 99.7,
+   "delta": 100.0,
+   "bid_absent": 8.8,
+   "two_sided_biddays": 90.7,
+   "lo_pct_spot": 86.866,
+   "hi_pct_spot": 114.124
+  },
+  {
+   "cls": "index",
+   "rank": "2",
+   "strikes_med": 107.0,
+   "rows": 29033,
+   "ltp_pos": 100.0,
+   "iv": 86.4,
+   "two_sided": 78.6,
+   "vol_pos": 84.2,
+   "oi_pos": 98.6,
+   "delta": 100.0,
+   "bid_absent": 0.6,
+   "two_sided_biddays": 95.6,
+   "lo_pct_spot": 87.048,
+   "hi_pct_spot": 112.387
+  },
+  {
+   "cls": "index",
+   "rank": "3+",
+   "strikes_med": 81.0,
+   "rows": 51380,
+   "ltp_pos": 100.0,
+   "iv": 87.9,
+   "two_sided": 80.6,
+   "vol_pos": 78.8,
+   "oi_pos": 98.5,
+   "delta": 100.0,
+   "bid_absent": 1.9,
+   "two_sided_biddays": 94.3,
+   "lo_pct_spot": 90.443,
+   "hi_pct_spot": 111.227
+  },
+  {
+   "cls": "stock",
+   "rank": "1",
+   "strikes_med": 27.0,
+   "rows": 576485,
+   "ltp_pos": 100.0,
+   "iv": 81.6,
+   "two_sided": 74.2,
+   "vol_pos": 77.3,
+   "oi_pos": 99.7,
+   "delta": 100.0,
+   "bid_absent": 5.6,
+   "two_sided_biddays": 93.7,
+   "lo_pct_spot": 82.239,
+   "hi_pct_spot": 121.925
+  },
+  {
+   "cls": "stock",
+   "rank": "2",
+   "strikes_med": 18.0,
+   "rows": 295246,
+   "ltp_pos": 100.0,
+   "iv": 90.2,
+   "two_sided": 72.5,
+   "vol_pos": 68.9,
+   "oi_pos": 96.6,
+   "delta": 100.0,
+   "bid_absent": 2.2,
+   "two_sided_biddays": 96.9,
+   "lo_pct_spot": 84.906,
+   "hi_pct_spot": 117.45
+  }
+ ],
+ "chain_no_bidask_days": [
+  "2026-08-11",
+  "2026-08-12",
+  "2026-08-13",
+  "2026-08-14",
+  "2026-08-17",
+  "2026-08-18",
+  "2026-08-19",
+  "2026-08-20",
+  "2026-08-21",
+  "2026-08-24",
+  "2026-08-25"
+ ],
+ "sessions_with_bidask": 40,
+ "spread_by_delta": {
+  "index|0.05-0.15|1": {
+   "med": 0.046,
+   "p75": 0.084,
+   "p90": 0.152,
+   "n": 1954.0
+  },
+  "index|0.05-0.15|2": {
+   "med": 0.059,
+   "p75": 0.191,
+   "p90": 0.734,
+   "n": 2776.0
+  },
+  "index|0.05-0.15|3+": {
+   "med": 0.095,
+   "p75": 0.297,
+   "p90": 0.757,
+   "n": 6016.0
+  },
+  "index|0.15-0.25|1": {
+   "med": 0.019,
+   "p75": 0.03,
+   "p90": 0.052,
+   "n": 972.0
+  },
+  "index|0.15-0.25|2": {
+   "med": 0.021,
+   "p75": 0.063,
+   "p90": 0.231,
+   "n": 1725.0
+  },
+  "index|0.15-0.25|3+": {
+   "med": 0.041,
+   "p75": 0.099,
+   "p90": 0.365,
+   "n": 3983.0
+  },
+  "index|0.25-0.40|1": {
+   "med": 0.014,
+   "p75": 0.022,
+   "p90": 0.034,
+   "n": 1029.0
+  },
+  "index|0.25-0.40|2": {
+   "med": 0.017,
+   "p75": 0.051,
+   "p90": 0.181,
+   "n": 1973.0
+  },
+  "index|0.25-0.40|3+": {
+   "med": 0.022,
+   "p75": 0.072,
+   "p90": 0.339,
+   "n": 5029.0
+  },
+  "index|0.40-0.60|1": {
+   "med": 0.012,
+   "p75": 0.019,
+   "p90": 0.029,
+   "n": 1224.0
+  },
+  "index|0.40-0.60|2": {
+   "med": 0.019,
+   "p75": 0.037,
+   "p90": 0.083,
+   "n": 2353.0
+  },
+  "index|0.40-0.60|3+": {
+   "med": 0.023,
+   "p75": 0.056,
+   "p90": 0.234,
+   "n": 6349.0
+  },
+  "index|>0.60|1": {
+   "med": 0.02,
+   "p75": 0.061,
+   "p90": 0.181,
+   "n": 11447.0
+  },
+  "index|>0.60|2": {
+   "med": 0.04,
+   "p75": 0.16,
+   "p90": 0.317,
+   "n": 8882.0
+  },
+  "index|>0.60|3+": {
+   "med": 0.054,
+   "p75": 0.206,
+   "p90": 0.376,
+   "n": 14214.0
+  },
+  "stock|0.05-0.15|1": {
+   "med": 0.062,
+   "p75": 0.118,
+   "p90": 0.322,
+   "n": 59750.0
+  },
+  "stock|0.05-0.15|2": {
+   "med": 0.213,
+   "p75": 0.911,
+   "p90": 1.433,
+   "n": 36507.0
+  },
+  "stock|0.15-0.25|1": {
+   "med": 0.04,
+   "p75": 0.063,
+   "p90": 0.125,
+   "n": 29317.0
+  },
+  "stock|0.15-0.25|2": {
+   "med": 0.106,
+   "p75": 0.549,
+   "p90": 1.035,
+   "n": 27977.0
+  },
+  "stock|0.25-0.40|1": {
+   "med": 0.032,
+   "p75": 0.053,
+   "p90": 0.113,
+   "n": 31025.0
+  },
+  "stock|0.25-0.40|2": {
+   "med": 0.091,
+   "p75": 0.39,
+   "p90": 0.67,
+   "n": 33534.0
+  },
+  "stock|0.40-0.60|1": {
+   "med": 0.028,
+   "p75": 0.054,
+   "p90": 0.18,
+   "n": 37930.0
+  },
+  "stock|0.40-0.60|2": {
+   "med": 0.084,
+   "p75": 0.255,
+   "p90": 0.423,
+   "n": 38513.0
+  },
+  "stock|>0.60|1": {
+   "med": 0.075,
+   "p75": 0.136,
+   "p90": 0.261,
+   "n": 179098.0
+  },
+  "stock|>0.60|2": {
+   "med": 0.107,
+   "p75": 0.182,
+   "p90": 0.326,
+   "n": 68937.0
+  }
+ },
+ "spread_by_premium": {
+  "index|<5": {
+   "med": 0.196,
+   "p75": 0.5,
+   "p90": 0.857,
+   "n": 11037.0
+  },
+  "index|5-20": {
+   "med": 0.153,
+   "p75": 0.415,
+   "p90": 0.843,
+   "n": 9346.0
+  },
+  "index|20-50": {
+   "med": 0.084,
+   "p75": 0.244,
+   "p90": 0.548,
+   "n": 5959.0
+  },
+  "index|50-200": {
+   "med": 0.042,
+   "p75": 0.121,
+   "p90": 0.425,
+   "n": 12372.0
+  },
+  "index|>200": {
+   "med": 0.03,
+   "p75": 0.108,
+   "p90": 0.297,
+   "n": 53199.0
+  },
+  "stock|<5": {
+   "med": 0.145,
+   "p75": 0.667,
+   "p90": 1.2,
+   "n": 203230.0
+  },
+  "stock|5-20": {
+   "med": 0.053,
+   "p75": 0.199,
+   "p90": 0.766,
+   "n": 132765.0
+  },
+  "stock|20-50": {
+   "med": 0.063,
+   "p75": 0.158,
+   "p90": 0.375,
+   "n": 96663.0
+  },
+  "stock|50-200": {
+   "med": 0.082,
+   "p75": 0.163,
+   "p90": 0.314,
+   "n": 127172.0
+  },
+  "stock|>200": {
+   "med": 0.086,
+   "p75": 0.149,
+   "p90": 0.296,
+   "n": 81969.0
+  }
+ },
+ "spread_atm_nearest": {
+  "index_by_symbol": {
+   "BANKNIFTY": 0.01510000042617321,
+   "NIFTY": 0.006599999964237213,
+   "SENSEX": 0.011699999682605267
+  },
+  "stock_symbol_median_quartiles": [
+   0.021,
+   0.026,
+   0.036
+  ],
+  "ltp_outside_bidask_pct": {
+   "index": 33.9,
+   "stock": 34.9
+  },
+  "ltp_pos_volume0_pct": {
+   "index": 14.5,
+   "stock": 24.6
+  }
+ },
+ "path_continuity": {
+  "definition": "|delta| 0.20-0.60, expiry rank<=2, two-sided on t (usable snap, clean day); t+k = k-th NSE trading day; excluded if t+k >= expiry; unobservable = t+k not archived",
+  "continuity": {
+   "t+1": {
+    "index": {
+     "eligible": 6685,
+     "quoted_pct": 98.1,
+     "unobservable": 0
+    },
+    "stock": {
+     "eligible": 147701,
+     "quoted_pct": 98.9,
+     "unobservable": 557
+    }
+   },
+   "t+2": {
+    "index": {
+     "eligible": 6105,
+     "quoted_pct": 97.6,
+     "unobservable": 0
+    },
+    "stock": {
+     "eligible": 141189,
+     "quoted_pct": 98.7,
+     "unobservable": 532
+    }
+   },
+   "t+3": {
+    "index": {
+     "eligible": 5525,
+     "quoted_pct": 97.9,
+     "unobservable": 0
+    },
+    "stock": {
+     "eligible": 134539,
+     "quoted_pct": 98.6,
+     "unobservable": 534
+    }
+   },
+   "t+5": {
+    "index": {
+     "eligible": 4352,
+     "quoted_pct": 97.0,
+     "unobservable": 0
+    },
+    "stock": {
+     "eligible": 120905,
+     "quoted_pct": 98.5,
+     "unobservable": 491
+    }
+   }
+  },
+  "entry_opportunities": {
+   "index": 7161,
+   "stock": 154318
+  },
+  "distinct_contracts": {
+   "index": 1868,
+   "stock": 22051
+  },
+  "nearest_expiry_cycles": {
+   "BANKNIFTY": 4,
+   "NIFTY": 13,
+   "SENSEX": 12,
+   "stocks(monthly)": 4
+  }
+ },
+ "aux": {
+  "spot_history_len": {
+   "index": {
+    "min": 289.0,
+    "50%": 300.0,
+    "max": 300.0
+   },
+   "stock": {
+    "min": 0.0,
+    "50%": 0.0,
+    "max": 0.0
+   }
+  },
+  "spot_history_item_keys": [
+   "t,v"
+  ],
+  "index_spot_history_first": "2025-06-16",
+  "ivhist_len_first_last": {
+   "index": [
+    18.0,
+    92.0
+   ],
+   "stock": [
+    4.0,
+    72.0
+   ]
+  },
+  "future_coverage_pct": {
+   "index": {
+    "price": 100.0,
+    "oi": 100.0,
+    "basis": 100.0,
+    "expiry": 100.0
+   },
+   "stock": {
+    "price": 100.0,
+    "oi": 100.0,
+    "basis": 100.0,
+    "expiry": 100.0
+   }
+  },
+  "structure_labels_pct": {
+   "index|Short covering": 32.0,
+   "index|Short buildup": 20.3,
+   "index|Long unwinding": 18.3,
+   "index|Indecisive": 16.3,
+   "index|Long buildup": 13.1,
+   "stock|Short buildup": 23.1,
+   "stock|Long unwinding": 22.4,
+   "stock|Short covering": 22.2,
+   "stock|Long buildup": 22.1,
+   "stock|Indecisive": 10.2
+  },
+  "stock_term_regime_pct": {
+   "contango": 35.1,
+   "flat": 33.2,
+   "backwardation": 31.7
+  },
+  "event_kinds": {
+   "stock|Event priced in": 3070,
+   "stock|Results": 880,
+   "stock|Dividend": 450,
+   "stock|Earnings call": 333,
+   "stock|AGM": 84,
+   "stock|Buyback": 75,
+   "stock|Fund raise": 57,
+   "stock|Stock split": 55,
+   "stock|Board meeting": 19,
+   "stock|Bonus issue": 16,
+   "stock|Fund Raising": 13,
+   "stock|EGM": 11,
+   "stock|Rights issue": 11,
+   "market|in_cpi": 5,
+   "stock|Other business matters": 5,
+   "market|us_cpi": 5,
+   "market|fomc": 4,
+   "market|rbi": 3
+  },
+  "results_symbol_events_in_window": 287,
+  "results_nse_symbol_events": 243,
+  "results_nse_exact_symbol_events": 243,
+  "results_symbols": 207,
+  "market_events": [
+   [
+    "fomc",
+    "2026-07-29"
+   ],
+   [
+    "rbi",
+    "2026-08-05"
+   ],
+   [
+    "us_cpi",
+    "2026-08-12"
+   ],
+   [
+    "in_cpi",
+    "2026-08-12"
+   ],
+   [
+    "us_cpi",
+    "2026-09-11"
+   ],
+   [
+    "in_cpi",
+    "2026-09-14"
+   ],
+   [
+    "fomc",
+    "2026-09-16"
+   ],
+   [
+    "rbi",
+    "2026-10-07"
+   ],
+   [
+    "in_cpi",
+    "2026-10-12"
+   ],
+   [
+    "us_cpi",
+    "2026-10-13"
+   ],
+   [
+    "fomc",
+    "2026-10-28"
+   ],
+   [
+    "in_cpi",
+    "2026-11-12"
+   ],
+   [
+    "us_cpi",
+    "2026-11-13"
+   ],
+   [
+    "rbi",
+    "2026-12-04"
+   ],
+   [
+    "fomc",
+    "2026-12-09"
+   ],
+   [
+    "us_cpi",
+    "2026-12-10"
+   ],
+   [
+    "in_cpi",
+    "2026-12-14"
+   ]
+  ]
+ },
+ "db_state": {
+  "xerxes_db_present": false,
+  "outcomes_rows": 16419,
+  "outcomes_columns": [
+   "expiry",
+   "symbol",
+   "strike",
+   "type",
+   "entry_date",
+   "entry_ltp",
+   "entry_spot",
+   "entry_dte",
+   "lot_size",
+   "conviction",
+   "band",
+   "sector",
+   "f_edge",
+   "f_vrp",
+   "f_direction",
+   "f_cushion",
+   "f_survival",
+   "f_ivrank",
+   "f_liquidity",
+   "edge_pct",
+   "p_profit",
+   "cushion_sigma",
+   "prob_touch",
+   "tail_reliance",
+   "vrp",
+   "dist_pct",
+   "verdict",
+   "verdict_score",
+   "notes",
+   "days_observed",
+   "peak_ltp",
+   "mae_pct",
+   "ever_itm",
+   "min_cushion_pct",
+   "settle_date",
+   "settle_spot",
+   "settle_exact",
+   "intrinsic",
+   "finished_itm",
+   "pnl_per_lot",
+   "kept_pct",
+   "roi_margin_pct",
+   "settled_at"
+  ],
+  "outcomes_expiry_range": [
+   "2026-08-13",
+   "2026-11-09"
+  ],
+  "outcomes_symbols": 208,
+  "outcomes_expiries": 21
+ },
+ "regime": {
+  "archived": {
+   "nifty_min": 22231.8,
+   "nifty_max": 25299.35,
+   "nifty_median": 23146.15,
+   "vix_min": 10.35,
+   "vix_max": 17.56,
+   "vix_median": 14.03,
+   "nifty_return_pct": 3.382,
+   "days_abs_move_gt1pct": 13,
+   "n": 51
+  },
+  "full_window_from_history": {
+   "n_days": 64,
+   "nifty_min": 22231.8,
+   "nifty_max": 25299.35,
+   "vix_min": 10.35,
+   "vix_max": 17.56,
+   "ret_pct": 3.382,
+   "days_abs_move_gt1pct": 13,
+   "max_drawdown_pct": -9.153,
+   "history_points_on_non_trading_days_dropped": 12
+  }
+ }
+}
