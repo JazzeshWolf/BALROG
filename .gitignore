@@ -31,3 +31,13 @@ Thumbs.db
 desktop.ini
 .vscode/
 .claude/
+
+# caches and generated data dirs
+data/features/
+data/bt/
+data/fo/
+data/intraday/
+data/archive/
+data/earnings/
+data/ref/
+data/underlying/
