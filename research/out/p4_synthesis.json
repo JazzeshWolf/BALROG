@@ -1,0 +1,1701 @@
+{
+ "script": "research/scripts/p4_synthesis.py",
+ "n_primary_tests": 51,
+ "rows": [
+  {
+   "id": "V1",
+   "grp": "index",
+   "family": "vol_dealer_events",
+   "kind": "entry",
+   "is_net": 0.051220795695804844,
+   "is_gross": 0.13707485481944956,
+   "oos_net": 0.0898981287174628,
+   "oos_gross": 0.1594035376540738,
+   "oos_ci": [
+    -0.2049599575137107,
+    0.3968841974719174
+   ],
+   "n": 55,
+   "n_days": 46,
+   "diff": 0.14647535476524332,
+   "p": 0.353,
+   "net_2x": 0.03520412924736847,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": true,
+    "4": false,
+    "5": false,
+    "6": true
+   },
+   "family_verdict": "ANECDOTAL",
+   "params": {
+    "c": 0.9
+   },
+   "q_bh": 0.56259375,
+   "bh_survivor": false,
+   "final_verdict": "ANECDOTAL"
+  },
+  {
+   "id": "V1",
+   "grp": "stocks",
+   "family": "vol_dealer_events",
+   "kind": "entry",
+   "is_net": -0.10438307151285071,
+   "is_gross": -0.02694765533369892,
+   "oos_net": -0.04792468283066322,
+   "oos_gross": 0.026522892374633705,
+   "oos_ci": [
+    -0.0822839961164683,
+    -0.012407536258754952
+   ],
+   "n": 4734,
+   "n_days": 495,
+   "diff": 0.03775456614332204,
+   "p": 0.003,
+   "net_2x": -0.11173456796917736,
+   "crit": {
+    "1": false,
+    "2": true,
+    "3": false,
+    "4": false,
+    "5": true,
+    "6": false
+   },
+   "family_verdict": "LESS-BAD-NOT-EDGE",
+   "params": {
+    "c": 0.8
+   },
+   "q_bh": 0.019125,
+   "bh_survivor": true,
+   "final_verdict": "LESS-BAD-NOT-EDGE (BH q<.05)"
+  },
+  {
+   "id": "V2",
+   "grp": "index",
+   "family": "vol_dealer_events",
+   "kind": "entry",
+   "is_net": 0.0031452986495780085,
+   "is_gross": 0.0764473124207535,
+   "oos_net": 0.07716828467247175,
+   "oos_gross": 0.15080442475186925,
+   "oos_ci": [
+    -0.059187376179446125,
+    0.2332677716417987
+   ],
+   "n": 168,
+   "n_days": 127,
+   "diff": 0.13374551072025226,
+   "p": 0.037,
+   "net_2x": 0.015971290799031715,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": true,
+    "4": false,
+    "5": true,
+    "6": true
+   },
+   "family_verdict": "FAIL",
+   "params": {
+    "c": 20
+   },
+   "q_bh": 0.1258,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "V2",
+   "grp": "stocks",
+   "family": "vol_dealer_events",
+   "kind": "entry",
+   "is_net": -0.10101943183152276,
+   "is_gross": -0.027092745399771478,
+   "oos_net": -0.03514605976130956,
+   "oos_gross": 0.04224198205522381,
+   "oos_ci": [
+    -0.07398093211095355,
+    0.0078053695118208396
+   ],
+   "n": 4816,
+   "n_days": 363,
+   "diff": 0.05053318921267571,
+   "p": 0.003,
+   "net_2x": -0.1012599535246179,
+   "crit": {
+    "1": false,
+    "2": true,
+    "3": false,
+    "4": false,
+    "5": true,
+    "6": false
+   },
+   "family_verdict": "LESS-BAD-NOT-EDGE",
+   "params": {
+    "c": 10
+   },
+   "q_bh": 0.019125,
+   "bh_survivor": true,
+   "final_verdict": "LESS-BAD-NOT-EDGE (BH q<.05)"
+  },
+  {
+   "id": "V3",
+   "grp": "index",
+   "family": "vol_dealer_events",
+   "kind": "veto",
+   "is_net": -0.11053914803030537,
+   "is_gross": -0.04890255458793694,
+   "oos_net": -0.08642704475230613,
+   "oos_gross": -0.029586983336407458,
+   "oos_ci": [
+    -0.12607725409562287,
+    -0.044404916668151086
+   ],
+   "n": 545,
+   "n_days": 367,
+   "diff": -0.024396584232888978,
+   "p": 0.162,
+   "net_2x": -0.13287839345830577,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true
+   },
+   "family_verdict": "FAIL",
+   "params": {
+    "c": 0.0
+   },
+   "q_bh": 0.306,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "V3",
+   "grp": "stocks",
+   "family": "vol_dealer_events",
+   "kind": "veto",
+   "is_net": -0.11887401220543067,
+   "is_gross": -0.053104405046055396,
+   "oos_net": -0.08573566644419456,
+   "oos_gross": -0.023028488454198075,
+   "oos_ci": [
+    -0.09782385003003634,
+    -0.07246531153893414
+   ],
+   "n": 18323,
+   "n_days": 544,
+   "diff": -0.013034094757620907,
+   "p": 0.001,
+   "net_2x": -0.1394573618853532,
+   "crit": {
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true
+   },
+   "family_verdict": "VETO-PASS",
+   "params": {
+    "c": 0.0
+   },
+   "q_bh": 0.0085,
+   "bh_survivor": true,
+   "final_verdict": "VETO-PASS"
+  },
+  {
+   "id": "V4",
+   "grp": "index",
+   "family": "vol_dealer_events",
+   "kind": "entry",
+   "is_net": -0.1338896243578443,
+   "is_gross": -0.07108808261741976,
+   "oos_net": -0.02397808914116311,
+   "oos_gross": 0.03934663710202544,
+   "oos_ci": [
+    -0.1966851166189961,
+    0.16485846131100854
+   ],
+   "n": 84,
+   "n_days": 31,
+   "diff": 0.03259913690661735,
+   "p": 0.782,
+   "net_2x": -0.0770270578404247,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false
+   },
+   "family_verdict": "ANECDOTAL",
+   "params": {
+    "t": 33.333333333333336,
+    "c": 0.0
+   },
+   "q_bh": 0.839375,
+   "bh_survivor": false,
+   "final_verdict": "ANECDOTAL"
+  },
+  {
+   "id": "D1",
+   "grp": "index",
+   "family": "vol_dealer_events",
+   "kind": "entry",
+   "is_net": -0.03223156654244175,
+   "is_gross": 0.03475409394884108,
+   "oos_net": -0.029848130773893505,
+   "oos_gross": 0.035538996903390324,
+   "oos_ci": [
+    -0.10297804441640704,
+    0.0450040923095049
+   ],
+   "n": 220,
+   "n_days": 168,
+   "diff": 0.03218232974552366,
+   "p": 0.318,
+   "net_2x": -0.08373051948627794,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": true,
+    "6": false
+   },
+   "family_verdict": "FAIL",
+   "params": {
+    "c": 10
+   },
+   "q_bh": 0.5406,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "D1",
+   "grp": "stocks",
+   "family": "vol_dealer_events",
+   "kind": "entry",
+   "is_net": -0.06353587451573864,
+   "is_gross": 0.0038905613405130516,
+   "oos_net": -0.06649127691508597,
+   "oos_gross": -0.0025783805471803973,
+   "oos_ci": [
+    -0.08583590161208889,
+    -0.047573757026350305
+   ],
+   "n": 5052,
+   "n_days": 457,
+   "diff": 0.006210294771487684,
+   "p": 0.478,
+   "net_2x": -0.12147533999754849,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": true,
+    "6": false
+   },
+   "family_verdict": "FAIL",
+   "params": {
+    "c": 10
+   },
+   "q_bh": 0.6342307692307693,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "D2",
+   "grp": "index",
+   "family": "vol_dealer_events",
+   "kind": "entry",
+   "is_net": -0.008002312275917139,
+   "is_gross": 0.06301086787183874,
+   "oos_net": -0.07613491939764236,
+   "oos_gross": -0.016935887093571807,
+   "oos_ci": [
+    -0.15392917961493785,
+    -0.0005599511862406616
+   ],
+   "n": 351,
+   "n_days": 259,
+   "diff": -0.012080863259996619,
+   "p": 0.756,
+   "net_2x": -0.12454481766619983,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": true,
+    "5": true,
+    "6": false
+   },
+   "family_verdict": "FAIL",
+   "params": {},
+   "q_bh": 0.8381739130434782,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "D2",
+   "grp": "stocks",
+   "family": "vol_dealer_events",
+   "kind": "entry",
+   "is_net": -0.07530563611083972,
+   "is_gross": -0.012011937659990167,
+   "oos_net": -0.056990710618063656,
+   "oos_gross": 0.003289499452784415,
+   "oos_ci": [
+    -0.08347055264207277,
+    -0.02925513489315705
+   ],
+   "n": 13587,
+   "n_days": 545,
+   "diff": 0.010708271761664667,
+   "p": 0.449,
+   "net_2x": -0.10777952700224999,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": true,
+    "5": true,
+    "6": false
+   },
+   "family_verdict": "FAIL",
+   "params": {},
+   "q_bh": 0.6188918918918919,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "D3",
+   "grp": "index",
+   "family": "vol_dealer_events",
+   "kind": "entry",
+   "is_net": -0.21270689964163594,
+   "is_gross": -0.16437560353495087,
+   "oos_net": -0.019698446430027435,
+   "oos_gross": 0.043344146766492286,
+   "oos_ci": [
+    -0.2924308176877081,
+    0.256933510868734
+   ],
+   "n": 22,
+   "n_days": 22,
+   "diff": 0.03890004300460255,
+   "p": 0.81,
+   "net_2x": -0.07218328320091474,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false
+   },
+   "family_verdict": "ANECDOTAL",
+   "params": {
+    "prox": 1.0,
+    "c": 15
+   },
+   "q_bh": 0.8430612244897959,
+   "bh_survivor": false,
+   "final_verdict": "ANECDOTAL"
+  },
+  {
+   "id": "D3",
+   "grp": "stocks",
+   "family": "vol_dealer_events",
+   "kind": "entry",
+   "is_net": -0.0687441035810277,
+   "is_gross": 0.008574791577037165,
+   "oos_net": -0.023833724497338036,
+   "oos_gross": 0.04642597685666583,
+   "oos_ci": [
+    -0.09357118469064168,
+    0.04536480039351888
+   ],
+   "n": 752,
+   "n_days": 387,
+   "diff": 0.051427164114024926,
+   "p": 0.119,
+   "net_2x": -0.08351762684287001,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": true,
+    "6": false
+   },
+   "family_verdict": "FAIL",
+   "params": {
+    "prox": 1.0,
+    "c": 15
+   },
+   "q_bh": 0.23342307692307693,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "D4",
+   "grp": "index",
+   "family": "vol_dealer_events",
+   "kind": "veto",
+   "is_net": -0.10222789888400405,
+   "is_gross": -0.044643987527862354,
+   "oos_net": -0.04307358449825475,
+   "oos_gross": 0.02431357404244361,
+   "oos_ci": [
+    -0.12933030514829888,
+    0.07422585901111461
+   ],
+   "n": 52,
+   "n_days": 50,
+   "diff": 0.022326958983624266,
+   "p": 0.742,
+   "net_2x": -0.0974794979533354,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false
+   },
+   "family_verdict": "ANECDOTAL",
+   "params": {
+    "q": 20,
+    "k": 0.5,
+    "dte": 5
+   },
+   "q_bh": 0.8381739130434782,
+   "bh_survivor": false,
+   "final_verdict": "ANECDOTAL"
+  },
+  {
+   "id": "D4",
+   "grp": "stocks",
+   "family": "vol_dealer_events",
+   "kind": "veto",
+   "is_net": -0.22231783452987872,
+   "is_gross": -0.13998567782638596,
+   "oos_net": -0.1720019162364123,
+   "oos_gross": -0.09814617317642912,
+   "oos_ci": [
+    -0.247665040571486,
+    -0.08690020182375591
+   ],
+   "n": 598,
+   "n_days": 43,
+   "diff": -0.044602214434229376,
+   "p": 0.115,
+   "net_2x": -0.23402715312583913,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": true,
+    "4": false,
+    "5": true,
+    "6": true
+   },
+   "family_verdict": "FAIL",
+   "params": {
+    "q": 20,
+    "k": 0.5,
+    "dte": 5
+   },
+   "q_bh": 0.23342307692307693,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "E1",
+   "grp": "stocks",
+   "family": "vol_dealer_events",
+   "kind": "veto",
+   "is_net": -0.08407964941215372,
+   "is_gross": -0.028363996019103287,
+   "oos_net": -0.07048038440308112,
+   "oos_gross": -0.019820029915895595,
+   "oos_ci": [
+    -0.08738057393929918,
+    -0.05228591285138842
+   ],
+   "n": 1481,
+   "n_days": 248,
+   "diff": -0.007407164270520142,
+   "p": 0.392,
+   "net_2x": -0.11324766488258001,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true
+   },
+   "family_verdict": "FAIL",
+   "params": {},
+   "q_bh": 0.5772916666666666,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "E2",
+   "grp": "stocks",
+   "family": "vol_dealer_events",
+   "kind": "entry",
+   "is_net": -0.05904353727314924,
+   "is_gross": 0.015130729556501524,
+   "oos_net": 0.042040487172278304,
+   "oos_gross": 0.12186819421606206,
+   "oos_ci": [
+    0.006077954423873845,
+    0.08181656733565057
+   ],
+   "n": 1461,
+   "n_days": 259,
+   "diff": 0.12771973614626358,
+   "p": 0.0005,
+   "net_2x": -0.026933194439197457,
+   "crit": {
+    "1": true,
+    "2": true,
+    "3": false,
+    "4": true,
+    "5": true,
+    "6": false
+   },
+   "family_verdict": "FAIL",
+   "params": {},
+   "q_bh": 0.0063750000000000005,
+   "bh_survivor": true,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "E3",
+   "grp": "stocks",
+   "family": "vol_dealer_events",
+   "kind": "entry",
+   "is_net": -0.02419267821538133,
+   "is_gross": 0.041144910258208996,
+   "oos_net": -0.0772898682615109,
+   "oos_gross": -0.025451013020020972,
+   "oos_ci": [
+    -0.15500080607115896,
+    0.017911714428337805
+   ],
+   "n": 406,
+   "n_days": 180,
+   "diff": -0.0036424948790153566,
+   "p": 0.916,
+   "net_2x": -0.12124697677935808,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": true,
+    "6": false
+   },
+   "family_verdict": "FAIL",
+   "params": {
+    "c": 2.0
+   },
+   "q_bh": 0.93432,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "V5",
+   "grp": "stocks-index",
+   "family": "vol_dealer_events",
+   "kind": "contrast",
+   "is_net": -0.07508316718921752,
+   "is_gross": null,
+   "oos_net": -0.029102022926204806,
+   "oos_gross": null,
+   "oos_ci": [
+    -0.06417281830461703,
+    0.002802033691244787
+   ],
+   "n": 105558,
+   "n_days": 702,
+   "diff": -0.029102022926204806,
+   "p": 0.08,
+   "net_2x": null,
+   "crit": {},
+   "family_verdict": "FAIL",
+   "note": "registered contrast: stocks > indices expected; OOS diff is negative",
+   "q_bh": 0.21473684210526317,
+   "bh_survivor": false,
+   "final_verdict": "FAIL | BH n.s."
+  },
+  {
+   "id": "M1",
+   "grp": "index",
+   "family": "momentum",
+   "kind": "entry",
+   "is_net": 0.08385602959551318,
+   "is_gross": 0.16140406126383228,
+   "oos_net": -0.07892163392908562,
+   "oos_gross": -0.020563010023434455,
+   "oos_ci": [
+    -0.182535287045179,
+    0.027881457321115202
+   ],
+   "n": 370,
+   "n_days": 258,
+   "diff": -0.02436685905876909,
+   "p": 0.634,
+   "net_2x": -0.12677359755947165,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": true,
+    "6": false
+   },
+   "family_verdict": "FAIL",
+   "params": {
+    "variant": "z0.5",
+    "params": {
+     "z": 0.5
+    },
+    "is_net_mean_R": 0.08385602959551318,
+    "h": 3
+   },
+   "q_bh": 0.7886341463414634,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "M1",
+   "grp": "stocks",
+   "family": "momentum",
+   "kind": "entry",
+   "is_net": -0.09642459503787984,
+   "is_gross": -0.028140051386813813,
+   "oos_net": -0.05156883550460317,
+   "oos_gross": 0.014795904719478928,
+   "oos_ci": [
+    -0.0820477614867969,
+    -0.0186829352100585
+   ],
+   "n": 11115,
+   "n_days": 543,
+   "diff": 0.01917243650854712,
+   "p": 0.19,
+   "net_2x": -0.10840532565608883,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": true,
+    "4": false,
+    "5": true,
+    "6": false
+   },
+   "family_verdict": "FAIL",
+   "params": {
+    "variant": "z0.5",
+    "params": {
+     "z": 0.5
+    },
+    "is_net_mean_R": -0.09642459503787984,
+    "h": 3
+   },
+   "q_bh": 0.34607142857142853,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "M1b",
+   "grp": "index",
+   "family": "momentum",
+   "kind": "entry",
+   "is_net": -0.07165510535585566,
+   "is_gross": -0.003879956131236243,
+   "oos_net": -0.05119261747163146,
+   "oos_gross": 0.006486606963877787,
+   "oos_ci": [
+    -0.16830418416372378,
+    0.07139512770430308
+   ],
+   "n": 226,
+   "n_days": 166,
+   "diff": 0.02119206513976526,
+   "p": 0.71,
+   "net_2x": -0.09864368538498035,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": true,
+    "4": false,
+    "5": true,
+    "6": false
+   },
+   "family_verdict": "FAIL",
+   "params": {
+    "variant": "z0.5",
+    "params": {
+     "z": 0.5
+    },
+    "is_net_mean_R": -0.07165510535585566,
+    "h": 3
+   },
+   "q_bh": 0.8229545454545455,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "M1b",
+   "grp": "stocks",
+   "family": "momentum",
+   "kind": "entry",
+   "is_net": -0.08247688340127089,
+   "is_gross": -0.017014221666610745,
+   "oos_net": -0.0713348097906013,
+   "oos_gross": -0.01075166375498594,
+   "oos_ci": [
+    -0.10617410160098258,
+    -0.033110241448101034
+   ],
+   "n": 9404,
+   "n_days": 543,
+   "diff": 0.004163555972775866,
+   "p": 0.79,
+   "net_2x": -0.12299151347841038,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": true,
+    "4": false,
+    "5": true,
+    "6": false
+   },
+   "family_verdict": "FAIL",
+   "params": {
+    "variant": "z0.5",
+    "params": {
+     "z": 0.5
+    },
+    "is_net_mean_R": -0.08247688340127089,
+    "h": 3
+   },
+   "q_bh": 0.839375,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "M2",
+   "grp": "index",
+   "family": "momentum",
+   "kind": "entry",
+   "is_net": -0.08385583591763802,
+   "is_gross": -0.02013583772880289,
+   "oos_net": -0.013701500392739208,
+   "oos_gross": 0.047751777677247975,
+   "oos_ci": [
+    -0.11622985026845324,
+    0.09287500083409755
+   ],
+   "n": 584,
+   "n_days": 348,
+   "diff": 0.042768040186131166,
+   "p": 0.403,
+   "net_2x": -0.06445327580987871,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": true,
+    "6": false
+   },
+   "family_verdict": "FAIL",
+   "params": {
+    "variant": "adx20-45",
+    "params": {
+     "lo": 20,
+     "hi": 45
+    },
+    "is_net_mean_R": -0.08385583591763802,
+    "h": 3
+   },
+   "q_bh": 0.5772916666666666,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "M2",
+   "grp": "stocks",
+   "family": "momentum",
+   "kind": "entry",
+   "is_net": -0.09894555838800066,
+   "is_gross": -0.03169798492795378,
+   "oos_net": -0.08504256562741189,
+   "oos_gross": -0.022260515368199365,
+   "oos_ci": [
+    -0.1108730016297376,
+    -0.05754239600856416
+   ],
+   "n": 23579,
+   "n_days": 544,
+   "diff": -0.012893113352828414,
+   "p": 0.307,
+   "net_2x": -0.1385579066150458,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": true,
+    "4": false,
+    "5": true,
+    "6": false
+   },
+   "family_verdict": "FAIL",
+   "params": {
+    "variant": "adx20-45",
+    "params": {
+     "lo": 20,
+     "hi": 45
+    },
+    "is_net_mean_R": -0.09894555838800066,
+    "h": 3
+   },
+   "q_bh": 0.539896551724138,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "M3",
+   "grp": "index",
+   "family": "momentum",
+   "kind": "entry",
+   "is_net": 0.09396522588344021,
+   "is_gross": 0.18050472375302795,
+   "oos_net": -0.09965558114454452,
+   "oos_gross": -0.04484993016010917,
+   "oos_ci": [
+    -0.3156934310749491,
+    0.15392028449466388
+   ],
+   "n": 80,
+   "n_days": 48,
+   "diff": -0.04541785709436359,
+   "p": 0.688,
+   "net_2x": -0.14425426895277538,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false
+   },
+   "family_verdict": "ANECDOTAL",
+   "params": {
+    "variant": "lb20_atr1.5",
+    "params": {
+     "n": 20,
+     "m": 1.5
+    },
+    "is_net_mean_R": 0.09396522588344021,
+    "h": 3
+   },
+   "q_bh": 0.8159999999999998,
+   "bh_survivor": false,
+   "final_verdict": "ANECDOTAL"
+  },
+  {
+   "id": "M3",
+   "grp": "stocks",
+   "family": "momentum",
+   "kind": "entry",
+   "is_net": -0.08597448015195133,
+   "is_gross": -0.022259521794332642,
+   "oos_net": -0.12799124320454408,
+   "oos_gross": -0.07450166759344945,
+   "oos_ci": [
+    -0.19035098815788107,
+    -0.06461298960359599
+   ],
+   "n": 2451,
+   "n_days": 496,
+   "diff": -0.052633512711998856,
+   "p": 0.103,
+   "net_2x": -0.17373541602377449,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": true,
+    "4": false,
+    "5": true,
+    "6": false
+   },
+   "family_verdict": "FAIL",
+   "params": {
+    "variant": "lb40_atr1.5",
+    "params": {
+     "n": 40,
+     "m": 1.5
+    },
+    "is_net_mean_R": -0.08597448015195133,
+    "h": 3
+   },
+   "q_bh": 0.22099999999999997,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "M4",
+   "grp": "index",
+   "family": "momentum",
+   "kind": "entry",
+   "is_net": 0.057721567391074376,
+   "is_gross": 0.12269494979351156,
+   "oos_net": 0.1350682617719774,
+   "oos_gross": 0.20249018859829582,
+   "oos_ci": [
+    -0.05383035538970255,
+    0.3322574605440371
+   ],
+   "n": 141,
+   "n_days": 75,
+   "diff": 0.2014547494612798,
+   "p": 0.033,
+   "net_2x": 0.0788785022556457,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true
+   },
+   "family_verdict": "FAIL",
+   "params": {
+    "variant": "gap1.0",
+    "params": {
+     "g": 1.0
+    },
+    "is_net_mean_R": 0.057721567391074376,
+    "h": 2
+   },
+   "q_bh": 0.12021428571428572,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "M4",
+   "grp": "stocks",
+   "family": "momentum",
+   "kind": "entry",
+   "is_net": -0.03506627159060054,
+   "is_gross": 0.02671063439467334,
+   "oos_net": 0.00830760716889201,
+   "oos_gross": 0.06692742679464521,
+   "oos_ci": [
+    -0.07793492876300473,
+    0.08683202768973274
+   ],
+   "n": 1716,
+   "n_days": 395,
+   "diff": 0.07618506797781253,
+   "p": 0.097,
+   "net_2x": -0.04144094778560433,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": true,
+    "6": false
+   },
+   "family_verdict": "FAIL",
+   "params": {
+    "variant": "gap1.0",
+    "params": {
+     "g": 1.0
+    },
+    "is_net_mean_R": -0.03506627159060054,
+    "h": 2
+   },
+   "q_bh": 0.22099999999999997,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "M5",
+   "grp": "stocks",
+   "family": "momentum",
+   "kind": "entry",
+   "is_net": -0.13464060048186555,
+   "is_gross": -0.06405116404561646,
+   "oos_net": -0.1065168022374557,
+   "oos_gross": -0.04007159740908408,
+   "oos_ci": [
+    -0.15748778722871742,
+    -0.0525103266196986
+   ],
+   "n": 3724,
+   "n_days": 534,
+   "diff": -0.017063374712711403,
+   "p": 0.485,
+   "net_2x": -0.1639894214490488,
+   "crit": {
+    "1": false,
+    "2": false,
+    "3": true,
+    "4": false,
+    "5": true,
+    "6": false
+   },
+   "family_verdict": "FAIL",
+   "params": {
+    "variant": "q0.10",
+    "params": {
+     "q": 0.1
+    },
+    "is_net_mean_R": -0.13464060048186555,
+    "h": 5
+   },
+   "q_bh": 0.6342307692307693,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "M8",
+   "grp": "index",
+   "family": "momentum",
+   "kind": "veto",
+   "is_net": 0.18750904528764792,
+   "is_gross": null,
+   "oos_net": -0.1482057048068909,
+   "oos_gross": null,
+   "oos_ci": [
+    -0.2659157419339489,
+    -0.019298914044141732
+   ],
+   "n": 179,
+   "n_days": 155,
+   "diff": -0.1482057048068909,
+   "p": 0.026,
+   "net_2x": null,
+   "crit": {},
+   "family_verdict": {
+    "verdict": "FAIL",
+    "p_raw": 0.026,
+    "q_bh_family": 0.198
+   },
+   "note": "expiry-day minus other-day entries",
+   "q_bh": 0.102,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "M6",
+   "grp": "index",
+   "family": "intraday (SYNTHETIC)",
+   "kind": "entry",
+   "is_net": -0.0785388083100176,
+   "is_gross": -0.014427117624932394,
+   "oos_net": -0.08010184748309135,
+   "oos_gross": -0.01231972498920403,
+   "oos_ci": [
+    -0.09461128069867802,
+    -0.06505227836371066
+   ],
+   "n": 1785,
+   "n_days": 703,
+   "diff": 0.002228987177873981,
+   "p": 0.4075,
+   "net_2x": -0.13325925612849424,
+   "crit": {
+    "1": false,
+    "3": true,
+    "4": false,
+    "5": true,
+    "6": false,
+    "2": false
+   },
+   "family_verdict": "FAIL",
+   "note": "SYNTHETIC option prices; p vs random entry",
+   "q_bh": 0.5772916666666666,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "M6",
+   "grp": "stocks",
+   "family": "intraday (SYNTHETIC)",
+   "kind": "entry",
+   "is_net": -0.05467625616755294,
+   "is_gross": -0.0042722410509620605,
+   "oos_net": -0.04791454444789025,
+   "oos_gross": 0.0004108314941897869,
+   "oos_ci": [
+    -0.0531611071308734,
+    -0.042920848675545166
+   ],
+   "n": 18620,
+   "n_days": 703,
+   "diff": 0.006302934940320852,
+   "p": 0.0095,
+   "net_2x": -0.08830335042969167,
+   "crit": {
+    "1": false,
+    "3": true,
+    "4": false,
+    "5": true,
+    "6": false,
+    "2": true
+   },
+   "family_verdict": "less bad, not an edge",
+   "note": "SYNTHETIC option prices; p vs random entry",
+   "q_bh": 0.04845,
+   "bh_survivor": true,
+   "final_verdict": "LESS-BAD-NOT-EDGE (BH q<.05)"
+  },
+  {
+   "id": "M7",
+   "grp": "index",
+   "family": "intraday (SYNTHETIC)",
+   "kind": "entry",
+   "is_net": -0.06631618699423196,
+   "is_gross": -0.0009564564249867236,
+   "oos_net": -0.06704149917524842,
+   "oos_gross": 0.0024627730245814754,
+   "oos_ci": [
+    -0.07344465461463795,
+    -0.0601289758302895
+   ],
+   "n": 1807,
+   "n_days": 703,
+   "diff": 0.005291237667294502,
+   "p": 0.0985,
+   "net_2x": -0.12082681359958158,
+   "crit": {
+    "1": false,
+    "3": true,
+    "4": false,
+    "5": true,
+    "6": false,
+    "2": false
+   },
+   "family_verdict": "FAIL",
+   "note": "SYNTHETIC option prices; p vs random entry",
+   "q_bh": 0.22099999999999997,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "M7",
+   "grp": "stocks",
+   "family": "intraday (SYNTHETIC)",
+   "kind": "entry",
+   "is_net": -0.05226815131744347,
+   "is_gross": -0.0015162032112608565,
+   "oos_net": -0.0495791425642894,
+   "oos_gross": -0.0011666158607501534,
+   "oos_ci": [
+    -0.051564596273550554,
+    -0.04763430583447048
+   ],
+   "n": 19447,
+   "n_days": 703,
+   "diff": 0.0003660757126290118,
+   "p": 0.3465,
+   "net_2x": -0.09002892306408855,
+   "crit": {
+    "1": false,
+    "3": true,
+    "4": false,
+    "5": true,
+    "6": false,
+    "2": false
+   },
+   "family_verdict": "FAIL",
+   "note": "SYNTHETIC option prices; p vs random entry",
+   "q_bh": 0.56259375,
+   "bh_survivor": false,
+   "final_verdict": "FAIL"
+  },
+  {
+   "id": "C1",
+   "grp": "index",
+   "family": "contract",
+   "kind": "contrast",
+   "is_net": 0.1003,
+   "is_gross": null,
+   "oos_net": 0.0728,
+   "oos_gross": null,
+   "oos_ci": null,
+   "n": null,
+   "n_days": null,
+   "diff": 0.0728,
+   "p": 0.014,
+   "net_2x": null,
+   "crit": {},
+   "family_verdict": "supported",
+   "note": "d.70 - d.15 (+monotone)",
+   "q_bh": 0.0595,
+   "bh_survivor": false,
+   "final_verdict": "supported | BH n.s."
+  },
+  {
+   "id": "C1",
+   "grp": "stocks",
+   "family": "contract",
+   "kind": "contrast",
+   "is_net": 0.08634,
+   "is_gross": null,
+   "oos_net": 0.04079,
+   "oos_gross": null,
+   "oos_ci": null,
+   "n": null,
+   "n_days": null,
+   "diff": 0.04079,
+   "p": 0.0005,
+   "net_2x": null,
+   "crit": {},
+   "family_verdict": "partial: contrast only, not monotone",
+   "note": "d.70 - d.15 (+monotone)",
+   "q_bh": 0.0063750000000000005,
+   "bh_survivor": true,
+   "final_verdict": "partial: contrast only, not monotone | BH q<.05"
+  },
+  {
+   "id": "C2",
+   "grp": "index",
+   "family": "contract",
+   "kind": "contrast",
+   "is_net": -0.01916,
+   "is_gross": null,
+   "oos_net": -0.01951,
+   "oos_gross": null,
+   "oos_ci": null,
+   "n": null,
+   "n_days": null,
+   "diff": -0.01951,
+   "p": 0.393,
+   "net_2x": null,
+   "crit": {},
+   "family_verdict": "not supported",
+   "note": "interior 11-35 minus min(7-10, 36+)",
+   "q_bh": 0.5772916666666666,
+   "bh_survivor": false,
+   "final_verdict": "not supported | BH n.s."
+  },
+  {
+   "id": "C2",
+   "grp": "stocks",
+   "family": "contract",
+   "kind": "contrast",
+   "is_net": 0.04899,
+   "is_gross": null,
+   "oos_net": 0.04115,
+   "oos_gross": null,
+   "oos_ci": null,
+   "n": null,
+   "n_days": null,
+   "diff": 0.04115,
+   "p": 0.044,
+   "net_2x": null,
+   "crit": {},
+   "family_verdict": "supported",
+   "note": "interior 11-35 minus min(7-10, 36+)",
+   "q_bh": 0.14024999999999999,
+   "bh_survivor": false,
+   "final_verdict": "supported | BH n.s."
+  },
+  {
+   "id": "C3",
+   "grp": "index",
+   "family": "contract",
+   "kind": "contrast",
+   "is_net": -0.07708,
+   "is_gross": null,
+   "oos_net": 0.01965,
+   "oos_gross": null,
+   "oos_ci": [
+    -0.05383,
+    0.08746
+   ],
+   "n": null,
+   "n_days": null,
+   "diff": 0.01965,
+   "p": 0.558,
+   "net_2x": null,
+   "crit": {},
+   "family_verdict": "not supported",
+   "note": "low - high RMR(HAR) tercile",
+   "q_bh": 0.71145,
+   "bh_survivor": false,
+   "final_verdict": "not supported | BH n.s."
+  },
+  {
+   "id": "C3",
+   "grp": "stocks",
+   "family": "contract",
+   "kind": "contrast",
+   "is_net": 0.07482,
+   "is_gross": null,
+   "oos_net": 0.05402,
+   "oos_gross": null,
+   "oos_ci": [
+    0.03125,
+    0.07632
+   ],
+   "n": null,
+   "n_days": null,
+   "diff": 0.05402,
+   "p": 0.0005,
+   "net_2x": null,
+   "crit": {},
+   "family_verdict": "supported",
+   "note": "low - high RMR(HAR) tercile",
+   "q_bh": 0.0063750000000000005,
+   "bh_survivor": true,
+   "final_verdict": "supported | BH q<.05"
+  },
+  {
+   "id": "C4",
+   "grp": "index",
+   "family": "contract",
+   "kind": "contrast",
+   "is_net": 0.031,
+   "is_gross": null,
+   "oos_net": 0.04682,
+   "oos_gross": null,
+   "oos_ci": [
+    -0.01115,
+    0.1085
+   ],
+   "n": null,
+   "n_days": null,
+   "diff": 0.04682,
+   "p": 0.104,
+   "net_2x": null,
+   "crit": {},
+   "family_verdict": "not supported",
+   "note": "high - low gamma/theta(rv) tercile",
+   "q_bh": 0.22099999999999997,
+   "bh_survivor": false,
+   "final_verdict": "not supported | BH n.s."
+  },
+  {
+   "id": "C4",
+   "grp": "stocks",
+   "family": "contract",
+   "kind": "contrast",
+   "is_net": 0.0263,
+   "is_gross": null,
+   "oos_net": 0.02888,
+   "oos_gross": null,
+   "oos_ci": [
+    0.01549,
+    0.04286
+   ],
+   "n": null,
+   "n_days": null,
+   "diff": 0.02888,
+   "p": 0.0005,
+   "net_2x": null,
+   "crit": {},
+   "family_verdict": "supported",
+   "note": "high - low gamma/theta(rv) tercile",
+   "q_bh": 0.0063750000000000005,
+   "bh_survivor": true,
+   "final_verdict": "supported | BH q<.05"
+  },
+  {
+   "id": "X1",
+   "grp": "index",
+   "family": "exits",
+   "kind": "contrast",
+   "is_net": -0.02202,
+   "is_gross": null,
+   "oos_net": 0.00525,
+   "oos_gross": null,
+   "oos_ci": [
+    -0.02051,
+    0.02949
+   ],
+   "n": null,
+   "n_days": null,
+   "diff": 0.00525,
+   "p": 0.678,
+   "net_2x": null,
+   "crit": {},
+   "family_verdict": "no gain over X0",
+   "note": "x1_tp100_sl25 minus X0, h_max 3",
+   "q_bh": 0.8159999999999998,
+   "bh_survivor": false,
+   "final_verdict": "no gain over X0 | BH n.s."
+  },
+  {
+   "id": "X1",
+   "grp": "stocks",
+   "family": "exits",
+   "kind": "contrast",
+   "is_net": 0.02069,
+   "is_gross": null,
+   "oos_net": 0.007932,
+   "oos_gross": null,
+   "oos_ci": [
+    -0.0004854,
+    0.01617
+   ],
+   "n": null,
+   "n_days": null,
+   "diff": 0.007932,
+   "p": 0.061,
+   "net_2x": null,
+   "crit": {},
+   "family_verdict": "no gain over X0",
+   "note": "x1_tp100_sl25 minus X0, h_max 3",
+   "q_bh": 0.183,
+   "bh_survivor": false,
+   "final_verdict": "no gain over X0 | BH n.s."
+  },
+  {
+   "id": "X2",
+   "grp": "index",
+   "family": "exits",
+   "kind": "contrast",
+   "is_net": 0.0122,
+   "is_gross": null,
+   "oos_net": 0.01209,
+   "oos_gross": null,
+   "oos_ci": [
+    0.002589,
+    0.02078
+   ],
+   "n": null,
+   "n_days": null,
+   "diff": 0.01209,
+   "p": 0.014,
+   "net_2x": null,
+   "crit": {},
+   "family_verdict": "B1 leg passes (adoption pending survivors)",
+   "note": "x2_ext minus X0, h_max 3",
+   "q_bh": 0.0595,
+   "bh_survivor": false,
+   "final_verdict": "B1 leg passes (adoption pending survivors) | BH n.s."
+  },
+  {
+   "id": "X2",
+   "grp": "stocks",
+   "family": "exits",
+   "kind": "contrast",
+   "is_net": 0.009039,
+   "is_gross": null,
+   "oos_net": 0.007126,
+   "oos_gross": null,
+   "oos_ci": [
+    0.003098,
+    0.01089
+   ],
+   "n": null,
+   "n_days": null,
+   "diff": 0.007126,
+   "p": 0.001,
+   "net_2x": null,
+   "crit": {},
+   "family_verdict": "B1 leg passes (adoption pending survivors)",
+   "note": "x2_ext minus X0, h_max 3",
+   "q_bh": 0.0085,
+   "bh_survivor": true,
+   "final_verdict": "B1 leg passes (adoption pending survivors) | BH q<.05"
+  },
+  {
+   "id": "X3",
+   "grp": "index",
+   "family": "exits",
+   "kind": "contrast",
+   "is_net": -0.02063,
+   "is_gross": null,
+   "oos_net": 0.0002151,
+   "oos_gross": null,
+   "oos_ci": [
+    -0.02347,
+    0.02328
+   ],
+   "n": null,
+   "n_days": null,
+   "diff": 0.0002151,
+   "p": 0.958,
+   "net_2x": null,
+   "crit": {},
+   "family_verdict": "no gain over X0",
+   "note": "x3_trail minus X0, h_max 3",
+   "q_bh": 0.958,
+   "bh_survivor": false,
+   "final_verdict": "no gain over X0 | BH n.s."
+  },
+  {
+   "id": "X3",
+   "grp": "stocks",
+   "family": "exits",
+   "kind": "contrast",
+   "is_net": 0.01234,
+   "is_gross": null,
+   "oos_net": 0.008081,
+   "oos_gross": null,
+   "oos_ci": [
+    -0.0005525,
+    0.01663
+   ],
+   "n": null,
+   "n_days": null,
+   "diff": 0.008081,
+   "p": 0.072,
+   "net_2x": null,
+   "crit": {},
+   "family_verdict": "no gain over X0",
+   "note": "x3_trail minus X0, h_max 3",
+   "q_bh": 0.204,
+   "bh_survivor": false,
+   "final_verdict": "no gain over X0 | BH n.s."
+  },
+  {
+   "id": "X4",
+   "grp": "index",
+   "family": "exits",
+   "kind": "contrast",
+   "is_net": 0.01297,
+   "is_gross": null,
+   "oos_net": 0.01308,
+   "oos_gross": null,
+   "oos_ci": [
+    -0.002702,
+    0.02828
+   ],
+   "n": null,
+   "n_days": null,
+   "diff": 0.01308,
+   "p": 0.101,
+   "net_2x": null,
+   "crit": {},
+   "family_verdict": "no gain over X0",
+   "note": "x4_fast minus X0, h_max 3",
+   "q_bh": 0.22099999999999997,
+   "bh_survivor": false,
+   "final_verdict": "no gain over X0 | BH n.s."
+  },
+  {
+   "id": "X4",
+   "grp": "stocks",
+   "family": "exits",
+   "kind": "contrast",
+   "is_net": 0.01934,
+   "is_gross": null,
+   "oos_net": 0.009602,
+   "oos_gross": null,
+   "oos_ci": [
+    0.003576,
+    0.01522
+   ],
+   "n": null,
+   "n_days": null,
+   "diff": 0.009602,
+   "p": 0.004,
+   "net_2x": null,
+   "crit": {},
+   "family_verdict": "B1 leg passes (adoption pending survivors)",
+   "note": "x4_fast minus X0, h_max 3",
+   "q_bh": 0.02266666666666667,
+   "bh_survivor": true,
+   "final_verdict": "B1 leg passes (adoption pending survivors) | BH q<.05"
+  }
+ ],
+ "bh_survivors": [
+  "V1|stocks",
+  "V2|stocks",
+  "V3|stocks",
+  "E2|stocks",
+  "M6|stocks",
+  "C1|stocks",
+  "C3|stocks",
+  "C4|stocks",
+  "X2|stocks",
+  "X4|stocks"
+ ],
+ "passes": [
+  "V3|stocks"
+ ],
+ "trials": {
+  "total_rows": 5380,
+  "baseline_rows": 174,
+  "sensitivity_rows": 410,
+  "registered_rows": 4243,
+  "unregistered_rows": 1137,
+  "distinct_variants": 2221,
+  "distinct_incl_baselines_and_sens": 2513,
+  "by_id": {
+   "M2": 279,
+   "C2": 270,
+   "C1": 270,
+   "M3": 220,
+   "C3": 120,
+   "C4": 120,
+   "C5": 91,
+   "X1": 90,
+   "C1C2": 80,
+   "D3": 75,
+   "D1": 65,
+   "V1": 65
+  }
+ },
+ "deflated_sharpe": {
+  "M4 index gap-and-hold": {
+   "sr": 0.17125392972692524,
+   "sr0": 0.2937363481717814,
+   "dsr": 0.05155469757727798,
+   "n_obs": 141,
+   "skew": 1.402373061343093,
+   "kurt": 5.186502286338238,
+   "psr_no_haircut": 0.9886664853612612,
+   "n_trials": 2221
+  },
+  "V2 index IV pct<20": {
+   "sr": 0.09683192574863739,
+   "sr0": 0.268944999310303,
+   "dsr": 0.006608389421807315,
+   "n_obs": 168,
+   "skew": 2.1772428422839503,
+   "kurt": 8.060077591763314,
+   "psr_no_haircut": 0.9183514543560354,
+   "n_trials": 2221
+  },
+  "E2 pre-earnings strangle": {
+   "sr": 0.0868586796950213,
+   "sr0": 0.0909589170895118,
+   "dsr": 0.4290325191061387,
+   "n_obs": 1461,
+   "skew": 3.5052080275473663,
+   "kurt": 39.1267925043741,
+   "psr_no_haircut": 0.9999242104318012,
+   "n_trials": 2221
+  },
+  "best contract cell index d0.55 7-10": {
+   "sr": -0.052758973847182554,
+   "sr0": 0.06998825620761984,
+   "dsr": 2.8097189778717943e-09,
+   "n_obs": 2467,
+   "skew": 1.7028156282044928,
+   "kurt": 6.993705328441537,
+   "psr_no_haircut": 0.006125109954398308,
+   "n_trials": 2221,
+   "note": "overlapping trades; SR per trade"
+  }
+ }
+}

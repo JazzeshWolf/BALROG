@@ -1,0 +1,499 @@
+{
+ "name": "BALROG buyConviction",
+ "variant": "v1_full",
+ "edge_claim": "none - loss-avoidance ranking (no entry hypothesis passed 02_hypotheses \u00a70)",
+ "created": "2026-11-14T12:33:04",
+ "script": "research/scripts/p5_fit_engine.py",
+ "fit": {
+  "sample": "IS",
+  "h": 3,
+  "outcome": "net_R_h3 (bhavcopy close +- modelled p75 half-spread, statutory costs)",
+  "date_range": [
+   "2019-01-01",
+   "2024-12-30"
+  ],
+  "rows_dropped_friction_gt_10": 486886,
+  "n": {
+   "index": 42169,
+   "stocks": 935625
+  }
+ },
+ "r": 0.0525,
+ "gates": {
+  "friction_max_pct": 10.0,
+  "dte_min": 7,
+  "delta_range": [
+   0.05,
+   0.8
+  ],
+  "min_premium": 2.0,
+  "vol_floor_contracts": {
+   "index": 500,
+   "stocks": 50
+  },
+  "ivhist_min_points": 20
+ },
+ "dte_levels": [
+  "7-10",
+  "11-20",
+  "21-35",
+  "36+"
+ ],
+ "excluded": [
+  "GEX (D1/D4)",
+  "OI walls (D2/D3)",
+  "futures structure (M1/M1b)",
+  "ADX (M2)",
+  "breakouts (M3)",
+  "relative strength (M5)",
+  "earnings (E1-E3)",
+  "intraday ORB/momentum (M6/M7)",
+  "C4 gamma/theta"
+ ],
+ "watchlist_zero_weight": {
+  "watch_gap_hold": "M4 index: open gap > 1 sigma_daily that holds into the close",
+  "watch_low_ivpct": "V2 index: IV percentile < 20"
+ },
+ "groups": {
+  "index": {
+   "intercept": -0.0631011241000635,
+   "n": 42169,
+   "n_days": 1387,
+   "components": {
+    "friction": {
+     "type": "linear",
+     "hyp": "C5 liquidity/friction floor (descriptive; dominant)",
+     "monotone": "dec",
+     "effects": [
+      0.021,
+      0.021,
+      0.00555,
+      -0.00284,
+      -0.00842,
+      -0.02895
+     ],
+     "n_eff": [
+      3265.7,
+      7529.5,
+      8787.8,
+      7663.8,
+      8686.1,
+      6236.0
+     ],
+     "se": [
+      0.01064,
+      0.00858,
+      0.0089,
+      0.01338,
+      0.0137,
+      0.01077
+     ],
+     "weight": 0.01529,
+     "coverage": 1.0,
+     "knots": [
+      1.952,
+      2.6177,
+      3.5454,
+      5.7187,
+      7.7743,
+      9.502
+     ]
+    },
+    "delta": {
+     "type": "linear",
+     "hyp": "C1 |delta| (lottery premium on far OTM)",
+     "monotone": null,
+     "effects": [
+      -0.00011,
+      -8e-05,
+      -4e-05,
+      4e-05,
+      0.00013
+     ],
+     "n_eff": [
+      4124.2,
+      7977.8,
+      10990.2,
+      11261.1,
+      7815.7
+     ],
+     "se": [
+      0.02302,
+      0.01383,
+      0.01003,
+      0.00682,
+      0.00513
+     ],
+     "weight": 8e-05,
+     "coverage": 1.0,
+     "knots": [
+      0.15,
+      0.25,
+      0.4,
+      0.55,
+      0.7
+     ]
+    },
+    "dte": {
+     "type": "cat",
+     "hyp": "C2 DTE bucket",
+     "monotone": null,
+     "effects": [
+      2e-05,
+      -0.00012,
+      -6e-05,
+      0.00017
+     ],
+     "n_eff": [
+      14955.0,
+      11836.0,
+      6388.0,
+      8990.0
+     ],
+     "se": [
+      0.01688,
+      0.01002,
+      0.00967,
+      0.00572
+     ],
+     "weight": 0.0001,
+     "coverage": 1.0,
+     "levels": [
+      "7-10",
+      "11-20",
+      "21-35",
+      "36+"
+     ]
+    },
+    "rmr": {
+     "type": "linear",
+     "hyp": "C3 required-move ratio (HAR sigma)",
+     "monotone": "dec",
+     "effects": [
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0
+     ],
+     "n_eff": [
+      2995.4,
+      6700.8,
+      8046.5,
+      8083.9,
+      8650.3,
+      4916.1
+     ],
+     "se": [
+      0.00672,
+      0.00695,
+      0.00809,
+      0.01019,
+      0.01541,
+      0.03274
+     ],
+     "weight": 0.0,
+     "coverage": 0.9342,
+     "knots": [
+      0.1733,
+      0.2432,
+      0.3133,
+      0.3787,
+      0.4588,
+      0.6506
+     ]
+    }
+   }
+  },
+  "stocks": {
+   "intercept": -0.1014513731233702,
+   "n": 935625,
+   "n_days": 1234,
+   "components": {
+    "friction": {
+     "type": "linear",
+     "hyp": "C5 liquidity/friction floor (descriptive; dominant)",
+     "monotone": "dec",
+     "effects": [
+      0.03269,
+      0.01935,
+      0.00531,
+      -0.00511,
+      -0.01163,
+      -0.02383
+     ],
+     "n_eff": [
+      71556.3,
+      158669.2,
+      190545.9,
+      189375.0,
+      188730.7,
+      136747.8
+     ],
+     "se": [
+      0.00434,
+      0.0039,
+      0.00407,
+      0.00431,
+      0.00481,
+      0.00487
+     ],
+     "weight": 0.01569,
+     "coverage": 1.0,
+     "knots": [
+      2.897,
+      4.2728,
+      5.5935,
+      6.7878,
+      8.0494,
+      9.5361
+     ]
+    },
+    "delta": {
+     "type": "linear",
+     "hyp": "C1 |delta| (lottery premium on far OTM)",
+     "monotone": null,
+     "effects": [
+      -0.01036,
+      -0.00477,
+      -0.00141,
+      0.00239,
+      0.01478
+     ],
+     "n_eff": [
+      91126.3,
+      196590.9,
+      281484.5,
+      253307.8,
+      113115.4
+     ],
+     "se": [
+      0.00819,
+      0.00596,
+      0.00382,
+      0.00281,
+      0.00316
+     ],
+     "weight": 0.00617,
+     "coverage": 1.0,
+     "knots": [
+      0.15,
+      0.25,
+      0.4,
+      0.55,
+      0.7
+     ]
+    },
+    "dte": {
+     "type": "cat",
+     "hyp": "C2 DTE bucket",
+     "monotone": null,
+     "effects": [
+      -0.06499,
+      -0.00479,
+      0.03317,
+      0.01493
+     ],
+     "n_eff": [
+      189311.0,
+      307454.0,
+      396094.0,
+      42766.0
+     ],
+     "se": [
+      0.01423,
+      0.00681,
+      0.00378,
+      0.00493
+     ],
+     "weight": 0.03658,
+     "coverage": 1.0,
+     "levels": [
+      "7-10",
+      "11-20",
+      "21-35",
+      "36+"
+     ]
+    },
+    "rmr": {
+     "type": "linear",
+     "hyp": "C3 required-move ratio (HAR sigma)",
+     "monotone": "dec",
+     "effects": [
+      0.01101,
+      0.01101,
+      0.00562,
+      0.00017,
+      -0.00801,
+      -0.0171
+     ],
+     "n_eff": [
+      67283.9,
+      159102.2,
+      190145.9,
+      189470.4,
+      199652.3,
+      116669.3
+     ],
+     "se": [
+      0.0042,
+      0.00327,
+      0.0034,
+      0.00383,
+      0.00599,
+      0.0125
+     ],
+     "weight": 0.00896,
+     "coverage": 0.9858,
+     "knots": [
+      0.1638,
+      0.2328,
+      0.2898,
+      0.3435,
+      0.412,
+      0.5721
+     ]
+    },
+    "ivpct": {
+     "type": "linear",
+     "hyp": "V2 IV percentile 252d (less bad, not edge)",
+     "monotone": "dec",
+     "effects": [
+      0.00832,
+      0.00145,
+      0.00145,
+      -0.00179,
+      -0.00591,
+      -0.00591
+     ],
+     "n_eff": [
+      166608.4,
+      125433.9,
+      147680.6,
+      150658.5,
+      136261.4,
+      119563.2
+     ],
+     "se": [
+      0.00687,
+      0.00491,
+      0.00482,
+      0.0048,
+      0.0057,
+      0.01227
+     ],
+     "weight": 0.00485,
+     "coverage": 0.9044,
+     "knots": [
+      5.0,
+      15.0,
+      30.0,
+      50.0,
+      70.0,
+      90.0
+     ]
+    },
+    "vrp": {
+     "type": "linear",
+     "hyp": "V1 IV / forecast RV (less bad, not edge)",
+     "monotone": "dec",
+     "effects": [
+      7e-05,
+      7e-05,
+      7e-05,
+      -2e-05,
+      -5e-05,
+      -0.00013
+     ],
+     "n_eff": [
+      64943.7,
+      160370.3,
+      190748.9,
+      189147.4,
+      199043.7,
+      118058.1
+     ],
+     "se": [
+      0.00568,
+      0.00474,
+      0.00551,
+      0.00451,
+      0.00495,
+      0.00711
+     ],
+     "weight": 7e-05,
+     "coverage": 0.9858,
+     "knots": [
+      0.7082,
+      0.8654,
+      0.9794,
+      1.0796,
+      1.2016,
+      1.4694
+     ]
+    },
+    "v3": {
+     "type": "binary",
+     "hyp": "V3 inverted term structure (veto)",
+     "monotone": "veto",
+     "effects": [
+      0.00011,
+      -0.00011
+     ],
+     "n_eff": [
+      351063.0,
+      336166.0
+     ],
+     "se": [
+      0.00498,
+      0.00585
+     ],
+     "weight": 0.00011,
+     "coverage": 0.7345,
+     "levels": [
+      "no",
+      "yes"
+     ]
+    }
+   }
+  }
+ },
+ "mapping": {
+  "R": [
+   -0.226327,
+   -0.202975,
+   -0.170833,
+   -0.141172,
+   -0.106428,
+   -0.090549,
+   -0.080197,
+   -0.070922,
+   -0.066465,
+   -0.059473,
+   -0.050992,
+   -0.042135,
+   -0.041946,
+   -0.024894,
+   -0.001301
+  ],
+  "score": [
+   0.0,
+   1.0,
+   5.0,
+   10.0,
+   20.0,
+   30.0,
+   40.0,
+   50.0,
+   60.0,
+   70.0,
+   80.0,
+   90.0,
+   95.0,
+   99.0,
+   100.0
+  ],
+  "rule": "score = piecewise-linear interpolation of predicted net R through IS quantiles (class groups equally weighted); score ~ IS percentile; clipped to [0, 100]"
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "source": "_ext/xerxes-eod-archive/archive/2026-11-12/indices/nifty.json.gz",
+ "model_variant": "v1_full",
+ "regime_counts": {
+  "untested": 164,
+  "not_scoreable": 84,
+  "tested": 107
+ },
+ "top5": [
+  {
+   "expiry": "2026-12-01",
+   "dte": 19,
+   "strike": 26000.0,
+   "side": "PE",
+   "bid": 783.5,
+   "ask": 790,
+   "mid": 786.75,
+   "iv_mid": 0.1534,
+   "delta": -0.7655,
+   "friction_pct": 1.155,
+   "buyConviction": 91.2,
+   "tier": "least-bad",
+   "expected_net_R": -0.0421,
+   "regime": "tested"
+  },
+  {
+   "expiry": "2026-11-23",
+   "dte": 11,
+   "strike": 24800.0,
+   "side": "CE",
+   "bid": 587.75,
+   "ask": 595,
+   "mid": 591.375,
+   "iv_mid": 0.149,
+   "delta": 0.7893,
+   "friction_pct": 1.585,
+   "buyConviction": 91.2,
+   "tier": "least-bad",
+   "expected_net_R": -0.0421,
+   "regime": "tested"
+  },
+  {
+   "expiry": "2026-11-23",
+   "dte": 11,
+   "strike": 24900.0,
+   "side": "CE",
+   "bid": 514,
+   "ask": 523.1,
+   "mid": 518.55,
+   "iv_mid": 0.1511,
+   "delta": 0.7389,
+   "friction_pct": 2.131,
+   "buyConviction": 91.2,
+   "tier": "least-bad",
+   "expected_net_R": -0.0421,
+   "regime": "tested"
+  },
+  {
+   "expiry": "2026-11-23",
+   "dte": 11,
+   "strike": 25800.0,
+   "side": "PE",
+   "bid": 592.05,
+   "ask": 605.4,
+   "mid": 598.725,
+   "iv_mid": 0.1672,
+   "delta": -0.7385,
+   "friction_pct": 2.586,
+   "buyConviction": 91.2,
+   "tier": "least-bad",
+   "expected_net_R": -0.0421,
+   "regime": "tested"
+  },
+  {
+   "expiry": "2026-11-23",
+   "dte": 11,
+   "strike": 25700.0,
+   "side": "PE",
+   "bid": 518.4,
+   "ask": 524,
+   "mid": 521.2,
+   "iv_mid": 0.164,
+   "delta": -0.6969,
+   "friction_pct": 1.45,
+   "buyConviction": 91.1,
+   "tier": "least-bad",
+   "expected_net_R": -0.0421,
+   "regime": "tested"
+  }
+ ]
+}
